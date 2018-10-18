@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block title %}
+    {{ post }}
+
+{% endblock %}
+
+{% block content %}
+
+
+    <article class="article"  style="margin-top: 10%">
+        <div class="card border-primary mb-3"
+             style="margin: auto;  margin-left: 10%; margin-right: 10%; margin-top: 4%">
+            <div class="card-header text-muted"><i class="fa fa-calendar"
+                                                   aria-hidden="true"></i> {{ post.published_date }} <i
+                    class="fa fa-hourglass-o" aria-hidden="true"></i><span class="eta"></span></div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    {% for tags in post.tags.all %}
+                        <a class="badge badge-pill badge-primary" href="{% url 'post_by_tag' tags.slug %}">
+                        <i class="fa fa-tag" aria-hidden="true"></i> {{ tags.name }} {% if not forloop.last %}
+                    {% endif %}{% endfor %}</a>
+                </li>
+            </ul>
+            <div class="card-body" >
+                <h4 class="card-title">{{ post.title }}</h4>
+                <p class="card-text">{{ post.text|safe|escape }}</p>
+            </div>
+            <div class="card-header text-muted" >
+            </div>
+        </div>
+    </article>
+
+
+
+{% endblock %}
