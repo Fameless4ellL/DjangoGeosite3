@@ -42,7 +42,7 @@ class Post(models.Model):
 
 
 class Feedback(models.Model):
-    email = models.EmailField(max_length=254, blank=True, null=True)
+    email = models.EmailField(max_length=254, blank=True, null=True,)
     title = models.CharField(('Тема'), max_length=200)
     comment = models.TextField(('Описание'))
     created = models.DateTimeField(('Creation date'), auto_now_add=True)

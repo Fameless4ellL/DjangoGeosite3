@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load staticfiles %}
-
+{% load widget_tweaks %}
 
 {% block title %}
     Горная энциклпедия
@@ -66,7 +66,7 @@
                                     <button type="button" class="btn btn-outline-info" data-toggle="modal"
                                             data-target="#Changes"><i class="fa fa-cog"></i></button>
                                 </div>
-                                {{ filter.form.title }}
+                                {%   render_field filter.form.title class="form-control" placeholder='Напишите что-нибудь' autocomplete='off' list='abc'%}
                                 <div class="input-group-append">
                                     <button class="btn btn-outline-primary  col-sm-0" type="submit"><i
                                             class="fa fa-search"></i> Поиск
@@ -215,19 +215,11 @@
     </datalist>
 
 
+</div>
     {% include 'pagination.html' %}
 
 
-    <script>$("img.lazy").lazyload();</script>
-    <script>document.getElementById('id_title').placeholder = 'Напишите что-нибудь';
-    document.getElementById("id_title").setAttribute('autocomplete', 'off');
-    document.getElementById("id_title").setAttribute('List', 'abc');
-    document.getElementById("id_title").setAttribute('Class', 'form-control col-sm-12');
-    </script>
-    <script>
-    </script>
 
-</div>
 
 
 {% endblock %}

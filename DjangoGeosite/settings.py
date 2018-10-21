@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'Gsite',
     'django_summernote',
     'django_filters',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
