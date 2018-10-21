@@ -6,7 +6,6 @@
     Горная энциклпедия
 
 {% endblock %}
-
 {% block content %}
 
 
@@ -135,9 +134,10 @@
                     <li class="breadcrumb-item"><a href="?title=Ю">Ю</a></li>
                     <li class="breadcrumb-item"><a href="?title=Я">Я</a></li>
                 </ol>
+            <div id="id01"></div>
                 <div class="row ">
                     {% for post in posts %}
-                        <div class="col-sm-6" style="margin-top: 1%; margin-bottom: 2%; ">
+                        <div class="col-sm-6 " style="margin-top: 1%; margin-bottom: 2%; ">
                             <a href="{% url 'post_detail' pk=post.pk %}"
                                class="list-group-item list-group-item-action ">
                                 <div class="d-flex w-100 justify-content-between">
@@ -217,9 +217,6 @@
 
 </div>
     {% include 'pagination.html' %}
-
-
-
 
 
 {% endblock %}
