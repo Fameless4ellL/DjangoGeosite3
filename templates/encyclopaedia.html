@@ -54,7 +54,6 @@
     </div>
     <div class="container" style="margin-top:30px">
         <div class="row ">
-
             <div class="col-sm-9">
                 <form action="" method="get">
                     <div class="form-group">
@@ -146,7 +145,7 @@
                                          {{ post.author }}, <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.published_date }}
                                     </small>
                                 </div>
-                                <p class="mb-1" style="color: #111111">{{ post.text|truncatechars:150 }}</p>
+                                <p class="mb-1" style="color: #111111">{{ post.text|safe|truncatechars_html:150  }}</p>
                                 {% for tags in post.tags.all %}
                                     <small class="badge badge-pill badge-secondary"><i class="fa fa-tag"
                                                                                        aria-hidden="true"></i> {{ tags.name }}
@@ -165,6 +164,7 @@
                         <i class="fa fa-tag" aria-hidden="true"></i>    {{ tags.name }}
                         {% if not forloop.last %} {% endif %}</a>
                 {% endfor %}
+            <script src="//news.yandex.ru/ru/energy5.utf8.js" charset="utf-8"></script><script>(function(w,rubric){var data=w[rubric];if(!data||!data.length){return;}function formatDate(ts){var d=new Date(ts*1000);return d.getHours()+':'+('0'+d.getMinutes()).substr(-2);}var html='<h4 style="margin-top: 5%"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Отраслевые новости:</h4>';for(var i=0;i<data.length;i++){var item=data[i];html+='<div class="list-group"><a href="'+item.url+'" target="_blank" data-toggle="popover"  title="<i class=\'fa fa-calendar\' aria-hidden=\'true\'></i> '+item.date+'&nbsp;'+item.time+'" data-content="'+item.descr+'" class="list-group-item list-group-item-action " style="color: #111111"><i class="fa fa-external-link" aria-hidden="true"></i> '+item.title+'</a></div>';}html+='<div class="ya-news__all"><a href="//news.yandex.ru/" target="_blank">Все новости на '+formatDate(w.update_time_t)+'</a></div>';document.write(html);}(window, 'm_energy'));</script>
                 <h4 style="margin-top: 5%"><i class="fa fa-fire" aria-hidden="true"></i> Свежие статьи:</h4>
 
                 {% for post in updating %}
@@ -173,7 +173,7 @@
                 {% for tags in post.tags.all %}
                     <a class='badge badge-pill badge-primary' href='#'>
                     <i class='fa fa-tag' aria-hidden='true'></i> {{ tags.name }} {% if not forloop.last %} {% endif %}{% endfor %}</a></div >
-            " data-content="{{ post.text|truncatechars:300 }}" class="list-group-item list-group-item-action "
+            " data-content="{{ post.text|truncatechars_html:300 }}" class="list-group-item list-group-item-action "
                        style="color: #111111">
                         <i class="fa fa-link" aria-hidden="true"></i> {{ post.title }}
                     </a>
@@ -186,7 +186,7 @@
                 {% for tags in post.tags.all %}
                     <a class='badge badge-pill badge-primary' href='#'>
                     <i class='fa fa-tag' aria-hidden='true'></i> {{ tags.name }} {% if not forloop.last %} {% endif %}{% endfor %}</a></div >
-            " data-content="{{ post.text|truncatechars:300 }}" class="list-group-item list-group-item-action "
+            " data-content="{{ post.text|truncatechars_html:300 }}" class="list-group-item list-group-item-action "
                        style="color: #111111">
                         <i class="fa fa-link" aria-hidden="true"></i> {{ post.title }}
                     </a>
@@ -199,7 +199,7 @@
                 {% for tags in post.tags.all %}
                     <a class='badge badge-pill badge-primary' href='{% url 'post_by_tag' tags.slug %}'>
                     <i class='fa fa-tag' aria-hidden='true'></i>  {{ tags.name }}  {% if not forloop.last %} {% endif %}{% endfor %}</a></div>
-            " data-content="{{ post.text|truncatechars:300 }}"  class="list-group-item list-group-item-action "
+            " data-content="{{ post.text|truncatechars_html:300 }}"  class="list-group-item list-group-item-action "
                        style="color: #111111">
                         <i class="fa fa-link" aria-hidden="true"></i> {{ post.title }}
                     </a>
@@ -220,3 +220,4 @@
 
 
 {% endblock %}
+

@@ -177,3 +177,19 @@ section .section-title {
     z-index: 0;
     position: relative;
 }
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+/* Для средних устройств (планшеты) */
+@media (min-width: 420px) {
+  img {
+    max-width: 48%;
+  }
+}
+/* Для больших устройств (ноуты, пк) */
+@media (min-width: 760px) {
+  img {
+    max-width: 24%;
+  }
+}

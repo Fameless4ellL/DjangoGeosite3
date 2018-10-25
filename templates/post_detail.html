@@ -6,8 +6,40 @@
 {% endblock %}
 
 {% block content %}
-
-
+    <style>
+    img {
+  max-width: 100%;
+  display: inline-block;
+}
+/* Для средних устройств (планшеты) */
+@media (min-width: 420px) {
+  img {
+    max-width: 48%;
+  }
+}
+/* Для больших устройств (ноуты, пк) */
+@media (min-width: 760px) {
+  img {
+    max-width: 50%;
+  }
+}
+    iframe {
+  max-width: 100%;
+  display: inline-block;
+}
+/* Для средних устройств (планшеты) */
+@media (min-width: 420px) {
+  iframe {
+    max-width: 48%;
+  }
+}
+/* Для больших устройств (ноуты, пк) */
+@media (min-width: 760px) {
+  iframe {
+    max-width: 50%;
+  }
+}
+    </style>
     <article class="article"  style="margin-top: 10%">
         <div class="card border-primary mb-3"
              style="margin: auto;  margin-left: 10%; margin-right: 10%; margin-top: 4%">
