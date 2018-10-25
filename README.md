@@ -3,8 +3,4 @@ this is my third project on django. It has't don yet thank you checking out.
 
 project on server http://zaur.pythonanywhere.com
 
-# To do list
 
-* install Django REST framework
-
-* create anroid app for website
