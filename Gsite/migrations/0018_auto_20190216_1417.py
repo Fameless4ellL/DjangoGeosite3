@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('Gsite', '0017_auto_20190215_2328'),
     ]
@@ -13,6 +12,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='post',
             name='Infobox',
-            field=models.ManyToManyField(blank=True, help_text='заполнение формы для пород и минералов', to='Gsite.InfoAboutRock'),
+            field=models.ManyToManyField(blank=True, help_text='заполнение формы для пород и минералов',
+                                         to='Gsite.InfoAboutRock'),
         ),
     ]

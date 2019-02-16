@@ -1,57 +1,58 @@
 {% load widget_tweaks %}
 {% load staticfiles %}
 {% block content %}
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{% block title %}Сообщение {% endblock %}  </title>
     <link rel="shortcut icon" href="{% static 'images/diemond.png' %}" type="image/x-icon">
-  <link href="{% static 'css/boostrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/boostrap.min.css' %}" rel="stylesheet">
     <div style="text-align:center; margin-top: 5%">
-    <svg width="150px" height="150px"  id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 612 792">{% include 'diamond.html' %}</svg>
-</div>
-    <h1 style="text-align: center" >Gsite</h1>
+        <svg width="150px" height="150px" id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 612 792">{% include 'diamond.html' %}</svg>
+    </div>
+    <h1 style="text-align: center">Gsite</h1>
     {% include 'search/indexes/search/search.html' %}
-<form method="post" style="margin-left: 15%; margin-right: 15%; margin-top: 5%;" novalidate>
-  {% csrf_token %}
-  {% for hidden_field in form.hidden_fields %}
-    {{ hidden_field }}
-  {% endfor %}
+    <form method="post" style="margin-left: 15%; margin-right: 15%; margin-top: 5%;" novalidate>
+        {% csrf_token %}
+        {% for hidden_field in form.hidden_fields %}
+            {{ hidden_field }}
+        {% endfor %}
 
-  {% if form.non_field_errors %}
-    <div class="alert alert-danger" role="alert">
-      {% for error in form.non_field_errors %}
-        {{ error }}
-      {% endfor %}
-    </div>
-  {% endif %}
-
-  {% for field in form.visible_fields %}
-    <div class="form-group">
-      {{ field.label_tag }}
-
-      {% if form.is_bound %}
-        {% if field.errors %}
-          {% render_field field class="form-control is-invalid" %}
-          {% for error in field.errors %}
-            <div class="invalid-feedback">
-              {{ error }}
+        {% if form.non_field_errors %}
+            <div class="alert alert-danger" role="alert">
+                {% for error in form.non_field_errors %}
+                    {{ error }}
+                {% endfor %}
             </div>
-          {% endfor %}
-        {% else %}
-          {% render_field field class="form-control is-valid" %}
         {% endif %}
-      {% else %}
-        {% render_field field class="form-control" %}
-      {% endif %}
 
-      {% if field.help_text %}
-        <small class="form-text text-muted">{{ field.help_text }}</small>
-      {% endif %}
-    </div>
-  {% endfor %}
+        {% for field in form.visible_fields %}
+            <div class="form-group">
+                {{ field.label_tag }}
 
-  <button type="POST" class="btn btn-primary">Отправить</button>
-</form>
+                {% if form.is_bound %}
+                    {% if field.errors %}
+                        {% render_field field class="form-control is-invalid" %}
+                        {% for error in field.errors %}
+                            <div class="invalid-feedback">
+                                {{ error }}
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        {% render_field field class="form-control is-valid" %}
+                    {% endif %}
+                {% else %}
+                    {% render_field field class="form-control" %}
+                {% endif %}
+
+                {% if field.help_text %}
+                    <small class="form-text text-muted">{{ field.help_text }}</small>
+                {% endif %}
+            </div>
+        {% endfor %}
+
+        <button type="POST" class="btn btn-primary">Отправить</button>
+    </form>
 
 {% endblock %}

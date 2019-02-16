@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('Gsite', '0003_auto_20190215_1410'),
     ]
@@ -17,7 +16,8 @@ class Migration(migrations.Migration):
                 ('rock', models.CharField(help_text='Enter a rock ', max_length=200)),
                 ('hardness', models.IntegerRangeField()),
                 ('formula', models.TextField()),
-                ('Streak', models.CharField(choices=[('Б', 'Белый'), ('Ч', 'Черный')], max_length=30, verbose_name='полоса, жилка')),
+                ('Streak', models.CharField(choices=[('Б', 'Белый'), ('Ч', 'Черный')], max_length=30,
+                                            verbose_name='полоса, жилка')),
             ],
             options={
                 'ordering': ('rock',),

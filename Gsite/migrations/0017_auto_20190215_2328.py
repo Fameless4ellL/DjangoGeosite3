@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('Gsite', '0016_auto_20190215_2232'),
     ]
@@ -43,7 +42,8 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='infoaboutrock',
             name='Streak',
-            field=models.CharField(blank=True, choices=[('Белый', 'Белый'), ('Черный', 'Черный')], max_length=30, null=True, verbose_name='полоса, жилка'),
+            field=models.CharField(blank=True, choices=[('Белый', 'Белый'), ('Черный', 'Черный')], max_length=30,
+                                   null=True, verbose_name='полоса, жилка'),
         ),
         migrations.AlterField(
             model_name='infoaboutrock',
@@ -68,6 +68,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='infoaboutrock',
             name='rock',
-            field=models.CharField(blank=True, help_text='Enter a rock ', max_length=200, verbose_name='Порода или минерал'),
+            field=models.CharField(blank=True, help_text='Enter a rock ', max_length=200,
+                                   verbose_name='Порода или минерал'),
         ),
     ]

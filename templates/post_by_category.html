@@ -6,29 +6,31 @@
 
 {% block content %}
 
-<div class="card border-primary mb-3" style="margin: auto;  margin-left: 10%; margin-right: 10%; margin-top: 10%">
-<table class="table table-hover">
-    <thead>
-    <tr>
-        <th scope="col"><h4>Все статьи под тегом - {{ tag.name }}</h4></th>
-        <th scope="col"><i class="fa fa-calendar" aria-hidden="true"></i> Время:</th>
-        <th scope="col"><i class="fa fa-tags" aria-hidden="true"></i> Теги:</th>
-    </tr>
-    </thead>
-    {% for post in posts %}
-        <tbody>
-        <tr class="table-light">
+    <div class="card border-primary mb-3" style="margin: auto;  margin-left: 10%; margin-right: 10%; margin-top: 10%">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col"><h4>Все статьи под тегом - {{ tag.name }}</h4></th>
+                <th scope="col"><i class="fa fa-calendar" aria-hidden="true"></i> Время:</th>
+                <th scope="col"><i class="fa fa-tags" aria-hidden="true"></i> Теги:</th>
+            </tr>
+            </thead>
+            {% for post in posts %}
+                <tbody>
+                <tr class="table-light">
 
-        <th scope="row"><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title|capfirst }}</a></th>
-        <td>{{ post.published_date }}</td>
-        <td>{% for tags in post.tags.all %}<a class="badge badge-pill badge-primary" href="{% url 'post_by_tag' tags.slug %}">
-        <i class="fa fa-tag" aria-hidden="true"></i> {{ tags.name }} {% if not forloop.last %} {% endif %}{% endfor %}
-    </a></td>
-    </tr>
-    </tbody>
-    {% endfor %}
-</table>
-</div>
+                    <th scope="row"><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title|capfirst }}</a></th>
+                    <td>{{ post.published_date }}</td>
+                    <td>{% for tags in post.tags.all %}
+                        <a class="badge badge-pill badge-primary" href="{% url 'post_by_tag' tags.slug %}">
+                        <i class="fa fa-tag" aria-hidden="true"></i> {{ tags.name }} {% if not forloop.last %}
+                        {% endif %}{% endfor %}
+                        </a></td>
+                </tr>
+                </tbody>
+            {% endfor %}
+        </table>
+    </div>
 
 
 {% endblock %}

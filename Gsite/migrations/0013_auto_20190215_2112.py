@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('Gsite', '0012_auto_20190215_2112'),
     ]
@@ -13,6 +12,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='infoaboutrock',
             name='Streak',
-            field=models.CharField(choices=[('Белый', 'Белый'), ('Черный', 'Черный')], max_length=30, verbose_name='полоса, жилка'),
+            field=models.CharField(choices=[('Белый', 'Белый'), ('Черный', 'Черный')], max_length=30,
+                                   verbose_name='полоса, жилка'),
         ),
     ]

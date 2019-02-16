@@ -1,9 +1,7 @@
 from django.conf.urls import url
 from django.urls import include
 
-from Gsite.views import FacetedSearchView
 from . import views
-
 
 urlpatterns = [
     url(r'^$', views.post_list, name='encyclopaedia'),

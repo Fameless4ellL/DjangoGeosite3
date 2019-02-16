@@ -6,7 +6,104 @@
   <component name="ChangeListManager">
     <list default="true" id="fa164ee6-4bb1-4f54-9a6b-e7372145363b" name="Default" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoGeosite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoGeosite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoGeosite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoGeosite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/api/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/api/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0002_feedback.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0002_feedback.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0003_auto_20190215_1410.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0003_auto_20190215_1410.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0004_auto_20190215_1439.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0004_auto_20190215_1439.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0005_auto_20190215_1500.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0005_auto_20190215_1500.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0006_infoaboutrock_color.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0006_infoaboutrock_color.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0007_infoaboutrock_formula.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0007_infoaboutrock_formula.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0008_auto_20190215_2011.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0008_auto_20190215_2011.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0009_infoaboutrock_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0009_infoaboutrock_category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0010_auto_20190215_2043.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0010_auto_20190215_2043.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0011_auto_20190215_2111.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0011_auto_20190215_2111.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0012_auto_20190215_2112.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0012_auto_20190215_2112.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0013_auto_20190215_2112.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0013_auto_20190215_2112.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0014_auto_20190215_2114.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0014_auto_20190215_2114.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0015_infoaboutrock_opacity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0015_infoaboutrock_opacity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0016_auto_20190215_2232.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0016_auto_20190215_2232.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0017_auto_20190215_2328.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0017_auto_20190215_2328.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/migrations/0018_auto_20190216_1417.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/migrations/0018_auto_20190216_1417.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/templatetags/my_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/templatetags/my_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/book.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/book.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-image-gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-image-gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/pace-theme-minimal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/diemond.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/diemond.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.goTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.goTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/pace.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/pace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/readingtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/readingtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Feedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/diamond.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/diamond.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post_by_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post_by_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/search/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/search/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BdfFontFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BdfFontFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BlpImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BlpImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BmpImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BmpImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/CurImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/CurImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/DcxImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/DcxImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/DdsImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/DdsImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/EpsImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/EpsImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FliImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FliImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FontFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FontFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FpxImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FpxImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GbrImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GbrImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GdImageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GdImageFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GifImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GifImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/Image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageCms.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageCms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageColor.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageColor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageDraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageDraw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageEnhance.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageEnhance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFilter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFont.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageGrab.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageGrab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMath.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMorph.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMorph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageOps.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageOps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImagePalette.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImagePalette.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImagePath.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImagePath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageQt.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageQt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageShow.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageShow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageStat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageStat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageTk.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageTk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageWin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/JpegPresets.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/JpegPresets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PSDraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PSDraw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PaletteFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PaletteFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PcfFontFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PcfFontFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PdfParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PdfParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PyAccess.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PyAccess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TiffTags.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TiffTags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/WalImageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/WalImageFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_binary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
+    <ignored path="venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/Gsite/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-952">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -57,10 +154,7 @@
         <entry file="file://$PROJECT_DIR$/Gsite/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -68,8 +162,8 @@
       <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="128" column="58" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="58" />
+            <state relative-caret-position="231">
+              <caret line="130" column="62" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="62" />
               <folding>
                 <element signature="e#2575#2648#0#HTML" expanded="true" />
               </folding>
@@ -81,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/templates/encyclopaedia.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
-              <caret line="233" selection-start-line="233" selection-end-line="233" />
+              <caret line="261" selection-start-line="261" selection-end-line="261" />
             </state>
           </provider>
         </entry>
@@ -89,8 +183,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gsite/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
+            <state relative-caret-position="642">
+              <caret line="279" selection-start-line="279" selection-end-line="279" />
               <folding>
                 <element signature="e#8449#17305#0" />
               </folding>
@@ -111,7 +205,7 @@
         <entry file="file://$PROJECT_DIR$/templates/search/indexes/Gsite/post_text.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+              <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -213,6 +307,12 @@
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -248,12 +348,6 @@
               <item name="DjangoGeosite" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoGeosite" type="462c0819:PsiDirectoryNode" />
               <item name="Gsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoGeosite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoGeosite" type="462c0819:PsiDirectoryNode" />
-              <item name="Gsite" type="462c0819:PsiDirectoryNode" />
-              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DjangoGeosite" type="b2602c69:ProjectViewProjectNode" />
@@ -301,26 +395,27 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WorkPapka\R-TT\DjangoGeosite\templates\search" />
-      <recent name="E:\WorkPapka\R-TT\DjangoGeosite\static\js" />
-      <recent name="E:\WorkPapka\R-TT\DjangoGeosite\templates" />
-      <recent name="E:\WorkPapka\R-TT\DjangoGeosite\static\images" />
-      <recent name="E:\WorkPapka\R-TT\DjangoGeosite\static\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WorkPapka\R-TT\DjangoGeosite\templates\search\indexes\search" />
       <recent name="E:\WorkPapka\R-TT\DjangoGeosite\Gsite" />
       <recent name="E:\WorkPapka\R-TT\DjangoGeosite\templates\Search\indexes\Gsite" />
       <recent name="E:\WorkPapka\R-TT\DjangoGeosite\templates\Search" />
       <recent name="E:\WorkPapka\R-TT\DjangoGeosite\templates\Search\indexes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WorkPapka\R-TT\DjangoGeosite\templates\search" />
+      <recent name="E:\WorkPapka\R-TT\DjangoGeosite\static\js" />
+      <recent name="E:\WorkPapka\R-TT\DjangoGeosite\templates" />
+      <recent name="E:\WorkPapka\R-TT\DjangoGeosite\static\images" />
+      <recent name="E:\WorkPapka\R-TT\DjangoGeosite\static\css" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -517,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550325793870</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update">
+      <created>1550329247746</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550329247746</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -534,16 +636,18 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.31511253" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.31511253" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.329582" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.329582" />
       <window_info anchor="bottom" id="Thumbnails" weight="0.329582" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.329582" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4903537" visible="true" weight="0.16944024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4903537" visible="true" weight="0.16944024" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info id="Structure" order="1" sideWeight="0.5096463" side_tool="true" weight="0.16944024" />
       <window_info id="Favorites" order="2" sideWeight="0.5096463" side_tool="true" weight="0.16944024" />
@@ -552,34 +656,39 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.31511253" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.329582" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.329582" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.329582" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4916067" visible="true" weight="0.16490166" />
       <window_info id="Structure" order="1" sideWeight="0.5083933" side_tool="true" weight="0.1580938" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329582" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.329582" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.329582" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" weight="0.329582" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015129" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329582" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.329582" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.329582" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -847,17 +956,14 @@
     <entry file="file://$PROJECT_DIR$/Gsite/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gsite/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-952">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -867,14 +973,14 @@
     <entry file="file://$PROJECT_DIR$/templates/encyclopaedia.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
-          <caret line="233" selection-start-line="233" selection-end-line="233" />
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="128" column="58" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="58" />
+        <state relative-caret-position="231">
+          <caret line="130" column="62" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="62" />
           <folding>
             <element signature="e#2575#2648#0#HTML" expanded="true" />
           </folding>
@@ -891,17 +997,11 @@
     <entry file="file://$PROJECT_DIR$/templates/search/indexes/Gsite/post_text.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search/indexes/3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search/indexes/3.html" />
     <entry file="uml://JavaScript-modules-diagram/E:/WorkPapka/R-TT/DjangoGeosite/venv">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1003,11 +1103,12 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.5" x="1064.9492488811075" y="636.0531743120804" />
+          <settings layout="Hierarchic Group" zoom="0.5" x="1065.0" y="636.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -1025,6 +1126,7 @@
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -1086,9 +1188,10 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.024493968513596" x="3755.8743114871877" y="185.5769537798356" />
+          <settings layout="Hierarchic Group" zoom="1.024493968513596" x="3756.0" y="186.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1105,6 +1208,7 @@
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -1214,11 +1318,12 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.19042717447246527" x="974.5" y="961.5" />
+          <settings layout="Hierarchic Group" zoom="0.19042717447246527" x="975.0" y="962.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -1237,16 +1342,17 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="278.0" y="92.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="278.0" y="93.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gsite/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
+        <state relative-caret-position="642">
+          <caret line="279" selection-start-line="279" selection-end-line="279" />
           <folding>
             <element signature="e#8449#17305#0" />
           </folding>

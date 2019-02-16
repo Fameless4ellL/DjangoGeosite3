@@ -6,4 +6,4 @@ from Gsite.models import Post
 class PostSerializer(HyperlinkedModelSerializer):
     class Meta:
         model = Post
-        fields = ( 'title', 'text', 'tags', 'published_date' )
+        fields = ('title', 'text', 'tags', 'published_date')

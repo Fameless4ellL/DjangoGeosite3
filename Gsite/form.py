@@ -1,8 +1,7 @@
 from django.forms import ModelForm, Textarea, EmailInput
 from django.utils.translation import gettext_lazy as _
-from django.db import models
-from .models import Feedback
 
+from .models import Feedback
 
 
 class FeedbackForm(ModelForm):
@@ -23,6 +22,3 @@ class FeedbackForm(ModelForm):
             'email': _('Мы никогда не будем делиться вашей электронной почтой с кем-либо еще.'),
             'comment': _('Напишите здесь свое сообщение.')
         }
-
-
-
