@@ -12,7 +12,6 @@
              viewBox="0 0 612 792">{% include 'diamond.html' %}</svg>
     </div>
     <h1 style="text-align: center">Gsite</h1>
-    {% include 'search/indexes/search/search.html' %}
     <form method="post" style="margin-left: 15%; margin-right: 15%; margin-top: 5%;" novalidate>
         {% csrf_token %}
         {% for hidden_field in form.hidden_fields %}
