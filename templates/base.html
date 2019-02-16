@@ -1,4 +1,6 @@
 {% load staticfiles %}
+{% load widget_tweaks %}
+
 
 <!DOCTYPE html>
 <html lang="ru">
@@ -37,7 +39,7 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top navbar" style="z-index: 9">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top " style="z-index: 9">
     <button type="button" class="btn btn-primary btn-sm" style="font-size: 20px" onclick="openNav()">&#9776
     </button>
 
@@ -79,11 +81,9 @@
     <div id="google_translate_element"></div>
 </div>
 
-
 {% block content %}
 
 {% endblock %}
-
 <!-- Footer -->
 <section id="footer">
     <div class="container">

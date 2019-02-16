@@ -23,7 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'', include('Gsite.urls')),
     path('summernote/', include('django_summernote.urls')),
+    path(r'api/posts/', include('Gsite.api.urls')),
 ]
-
 if settings.DEBUG:
      urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

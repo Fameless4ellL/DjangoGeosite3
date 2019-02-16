@@ -6,10 +6,10 @@
     Горная энциклпедия
 
 {% endblock %}
+
 {% block content %}
 
-
-    <div class="jumbotron jumbotron-fluid" style="background-color: rgba(62, 69, 81, 0.7); margin-top: 5%" >
+    <div class="jumbotron jumbotron-fluid" style="background-color: rgba(62, 69, 81, 0.7); margin-top: 5%"  >
         <video autoplay muted loop poster="{% static 'video/Video Inside A Library.png' %}">
             <source src="{% static 'video/12.mp4' %}" type="video/mp4">
         </video>
@@ -55,16 +55,16 @@
     <div class="container" style="margin-top:30px">
         <div class="row ">
             <div class="col-sm-9">
-                <form action="" method="get">
+                <form action="{% url 'haystack_search' %}" method="get">{% csrf_token %}
                     <div class="form-group">
                         <label class="control-label"></label>
                         <div class="form-group">
                             <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <button type="button" class="btn btn-outline-info" data-toggle="modal"
-                                            data-target="#Changes"><i class="fa fa-cog"></i></button>
-                                </div>
-                                {%   render_field filter.form.title class="form-control" placeholder='Напишите что-нибудь' autocomplete='off' list='abc'%}
+{#                                <div class="input-group-prepend">#}
+{#                                    <button type="button" class="btn btn-outline-info" data-toggle="modal"#}
+{#                                            data-target="#Changes"><i class="fa fa-cog"></i></button>#}
+{#                                </div>#}
+                                {% render_field form.q class="form-control" placeholder='Напишите что-нибудь' autocomplete='off' list='abc'%}
                                 <div class="input-group-append">
                                     <button class="btn btn-outline-primary  col-sm-0" type="submit"><i
                                             class="fa fa-search"></i> Поиск
@@ -73,84 +73,100 @@
                             </div>
                         </div>
                     </div>
-                    <div class="modal" id="Changes">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Настройки поиска</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    {{ filter.form.tags.label_tag }}
-                                    {% for choice in filter.form.tags %}
-                                        <label class="checkbox-inline ">
-                                            {{ choice.tag }} {{ choice.choice_label }}
-                                        </label>
-                                    {% endfor %}
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Сохранить и
-                                        закрыть
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+{#                    <div class="modal" id="Changes">#}
+{#                        <div class="modal-dialog" role="document">#}
+{#                            <div class="modal-content">#}
+{#                                <div class="modal-header">#}
+{#                                    <h5 class="modal-title">Настройки поиска</h5>#}
+{#                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">#}
+{#                                        <span aria-hidden="true">&times;</span>#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                                <div class="modal-body">#}
+{#                                <div class="col-sm-12 ">#}
+{#                                    {{ filter.form.tags.label_tag  }}#}
+{#                                    {% for choice in filter.form.tags %}#}
+{#                                        <label class="checkbox-inline ">#}
+{#                                            {{ choice.tag }} {{ choice.choice_label }}#}
+{#                                        </label>#}
+{#                                    {% endfor %}#}
+{#                                </div>#}
+{#                                <hr>#}
+{#                                    <div class="row " >#}
+{#                            <div class="col-sm-6 ">#}
+{#                                    {{ filter.form.text.label_tag }}#}
+{#                                    {% render_field  filter.form.text class="form-control" readonly='readonly' %}#}
+{#                                </div>#}
+{##}
+{#                                <div class="col-sm-6 ">#}
+{#                                {{ filter.form.published_date.label_tag }}#}
+{#                                {% render_field filter.form.published_date class="form-control" type="date" %}#}
+{#                                    </div>#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                                <div class="modal-footer">#}
+{#                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">#}
+{#                                        Закрыть#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
                 </form>
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="?title=А">А</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Б">Б</a></li>
-                    <li class="breadcrumb-item"><a href="?title=В">В</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Г">Г</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Д">Д</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Е">Е</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Ё">Ё</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Ж">Ж</a></li>
-                    <li class="breadcrumb-item"><a href="?title=З">З</a></li>
-                    <li class="breadcrumb-item"><a href="?title=И">И</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Й">Й</a></li>
-                    <li class="breadcrumb-item"><a href="?title=К">К</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Л">Л</a></li>
-                    <li class="breadcrumb-item"><a href="?title=М">М</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Н">Н</a></li>
-                    <li class="breadcrumb-item"><a href="?title=О">О</a></li>
-                    <li class="breadcrumb-item"><a href="?title=П">П</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Р">Р</a></li>
-                    <li class="breadcrumb-item"><a href="?title=С">С</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Т">Т</a></li>
-                    <li class="breadcrumb-item"><a href="?title=У">У</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Ф">Ф</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Х">Х</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Ч">Ч</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Ш">Ш</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Щ">Щ</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Ъ">Ъ</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Ы">Ы</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Ь">Ь</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Э">Э</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Ю">Ю</a></li>
-                    <li class="breadcrumb-item"><a href="?title=Я">Я</a></li>
-                </ol>
-            <div id="id01"></div>
-                <div class="row ">
+{#                <ol class="breadcrumb">#}
+{#                    {% load my_tags %}#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='А' %}">А</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Б' %}">Б</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='В' %}">В</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Г' %}">Г</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Д' %}">Д</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Е' %}">Е</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Ё' %}">Ё</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Ж' %}">Ж</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='З' %}">З</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='И' %}">И</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Й' %}">Й</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='К' %}">К</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Л' %}">Л</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='М' %}">М</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Н' %}">Н</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='О' %}">О</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='П' %}">П</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Р' %}">Р</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='С' %}">С</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Т' %}">Т</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='У' %}">У</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Ф' %}">Ф</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Х' %}">Х</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Ч' %}">Ч</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Ш' %}">Ш</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Щ' %}">Щ</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Ъ' %}">Ъ</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Ы' %}">Ы</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Ь' %}">Ь</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Э' %}">Э</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Ю' %}">Ю</a></li>#}
+{#                    <li class="breadcrumb-item"><a href="?{% param_replace title='Я' %}">Я</a></li>#}
+{#                </ol>#}
+            Страница {{ posts.number }} из {{ posts.paginator.num_pages }}.
+                <div class="row " >
                     {% for post in posts %}
                         <div class="col-sm-6 " style="margin-top: 1%; margin-bottom: 2%; ">
                             <a href="{% url 'post_detail' pk=post.pk %}"
-                               class="list-group-item list-group-item-action ">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h5 class="mb-1" style="color: #111111">{{ post.title }}</h5>
-                                    <small class="text-muted"><i class="fa fa-user-o" aria-hidden="true"></i>
-                                         {{ post.author }}, <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.published_date }}
-                                    </small>
-                                </div>
-                                <p class="mb-1" style="color: #111111">{{ post.text|safe|truncatechars_html:150  }}</p>
-                                {% for tags in post.tags.all %}
-                                    <small class="badge badge-pill badge-secondary"><i class="fa fa-tag"
-                                                                                       aria-hidden="true"></i> {{ tags.name }}
-                                    </small>
-                                    {% if not forloop.last %}, {% endif %}{% endfor %}
+                               class="list-group-item list-group-item-action border-primary">
+{#                                <div class="d-flex w-100 justify-content-between">#}
+{#                                    <h5 class="mb-1" style="color: #111111">{{ post.title|title }}</h5>#}
+{#                                    <small class="text-muted"><i class="fa fa-user-o" aria-hidden="true"></i>#}
+{#                                         {{ post.author }}, <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.published_date }}#}
+{#                                    </small>#}
+{#                                </div>#}{% load highlight %}
+                                <p class="mb-1" >{{ post.text|safe|truncatechars_html:220 }}{% if request.GET.q %}{% highlight post.object.text with request.GET.q  html_tag 'mark' max_length 70 %}{% endif %}</p>
+
+{#                                {% for tags in post.tags.all %}#}
+{#                                    <small class="badge badge-pill badge-secondary"><i class="fa fa-tag"#}
+{#                                                                                       aria-hidden="true"></i> {{ tags.name }}#}
+{#                                    </small>#}
+{#                                    {% if not forloop.last %}, {% endif %}{% endfor %}#}
                             </a>
                         </div>
                     {% endfor %}
@@ -164,21 +180,20 @@
                         <i class="fa fa-tag" aria-hidden="true"></i>    {{ tags.name }}
                         {% if not forloop.last %} {% endif %}</a>
                 {% endfor %}
-            <script src="//news.yandex.ru/ru/energy5.utf8.js" charset="utf-8"></script><script>(function(w,rubric){var data=w[rubric];if(!data||!data.length){return;}function formatDate(ts){var d=new Date(ts*1000);return d.getHours()+':'+('0'+d.getMinutes()).substr(-2);}var html='<h4 style="margin-top: 5%"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Отраслевые новости:</h4>';for(var i=0;i<data.length;i++){var item=data[i];html+='<div class="list-group"><a href="'+item.url+'" target="_blank" data-toggle="popover"  title="<i class=\'fa fa-calendar\' aria-hidden=\'true\'></i> '+item.date+'&nbsp;'+item.time+'" data-content="'+item.descr+'" class="list-group-item list-group-item-action " style="color: #111111"><i class="fa fa-external-link" aria-hidden="true"></i> '+item.title+'</a></div>';}html+='<div class="ya-news__all"><a href="//news.yandex.ru/" target="_blank">Все новости на '+formatDate(w.update_time_t)+'</a></div>';document.write(html);}(window, 'm_energy'));</script>
+            <script src="//news.yandex.ru/ru/energy5.utf8.js" charset="utf-8"></script><script>(function(w,rubric){var data=w[rubric];if(!data||!data.length){return;}function formatDate(ts){var d=new Date(ts*1000);return d.getHours()+':'+('0'+d.getMinutes()).substr(-2);}var html='<h4 style="margin-top: 5%"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Отраслевые новости:</h4>';for(var i=0;i<data.length;i++){var item=data[i];html+='<a href="'+item.url+'" target="_blank" data-toggle="pop"  title="<i class=\'fa fa-calendar\' aria-hidden=\'true\'></i> '+item.date+'&nbsp;'+item.time+'" data-content="'+item.descr+'" class="list-group-item d-flex justify-content-between align-items-center list-group-item-action border-info" style="color: #111111"> '+item.title+'<span class="badge badge-pill badge-info"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></span></a>';}html+='<div class="ya-news__all"><a href="//news.yandex.ru/" target="_blank">Все новости на '+formatDate(w.update_time_t)+'</a></div>';document.write(html);}(window, 'm_energy'));</script>
                 <h4 style="margin-top: 5%"><i class="fa fa-fire" aria-hidden="true"></i> Свежие статьи:</h4>
 
                 {% for post in updating %}
-                    <a href="{% url 'post_detail' pk=post.pk %}"  data-toggle="popover"  title="<i class='fa fa-calendar' aria-hidden='true'></i> {{ post.published_date }} </i>
+                    <a href="{% url 'post_detail' pk=post.pk %}"  data-toggle="danger"  title="<i class='fa fa-calendar' aria-hidden='true'></i> {{ post.published_date }} </i>
                     <div >
                 {% for tags in post.tags.all %}
                     <a class='badge badge-pill badge-primary' href='#'>
                     <i class='fa fa-tag' aria-hidden='true'></i> {{ tags.name }} {% if not forloop.last %} {% endif %}{% endfor %}</a></div >
-            " data-content="{{ post.text|truncatechars_html:300 }}" class="list-group-item list-group-item-action "
+            " data-content="{{ post.text|truncatechars_html:300 }}" class="list-group-item list-group-item-action   border-danger"
                        style="color: #111111">
                         <i class="fa fa-link" aria-hidden="true"></i> {{ post.title }}
                     </a>
                 {% endfor %}
-                {#            </div>#}
                 <h4 style="margin-top: 5%"><i class="fa fa-random" aria-hidden="true"></i> Случайные статьи:</h4>
                 {% for post in random_post %}
                     <a href="{% url 'post_detail' pk=post.pk %}" data-toggle="popover" title="<i class='fa fa-calendar' aria-hidden='true'></i> {{ post.published_date }} </i>
@@ -216,8 +231,9 @@
 
 
 </div>
-    {% include 'pagination.html' %}
 
+
+   {% include 'pagination.html' %}
 
 {% endblock %}
 

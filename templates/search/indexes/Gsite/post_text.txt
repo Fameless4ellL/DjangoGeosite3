@@ -1,69 +1,16 @@
-{% extends "base.html" %}
-{% load staticfiles %}
-{% load my_tags%}
+<div class="d-flex w-100 justify-content-between">
+<h5 class="mb-1" style="color: #111111">{{ object.title|title }}</h5>
+    <small class="text-muted"><i class="fa fa-user-o" aria-hidden="true"></i>
+        {{ object.author }}, <i class="fa fa-calendar" aria-hidden="true"></i> {{ object.published_date|date }}
+    </small>
+</div>
+{% for tags in object.tags.all %}
+<small class="badge badge-pill badge-secondary"><i class="fa fa-tag" aria-hidden="true"></i> {{ tags.name }}
+</small>
+{% if not forloop.last %}, {% endif %}{% endfor %}
 
-{% block title %}
-    {{ post }}
-
-{% endblock %}
-
-{% block content %}
-    <style>
-        img {
-            max-width: 100%;
-            display: inline-block;
-        }
-
-        /* Для средних устройств (планшеты) */
-        @media (min-width: 420px) {
-            img {
-                max-width: 48%;
-            }
-        }
-
-        /* Для больших устройств (ноуты, пк) */
-        @media (min-width: 760px) {
-            img {
-                max-width: 50%;
-            }
-        }
-
-        iframe {
-            max-width: 100%;
-            display: inline-block;
-        }
-
-        /* Для средних устройств (планшеты) */
-        @media (min-width: 420px) {
-            iframe {
-                max-width: 48%;
-            }
-        }
-
-        /* Для больших устройств (ноуты, пк) */
-        @media (min-width: 760px) {
-            iframe {
-                max-width: 50%;
-            }
-        }
-    </style>
-    <article class="article" style="margin-top: 10%">
-        <div class="card border-primary mb-3"
-             style="margin: auto;  margin-left: 10%; margin-right: 10%; margin-top: 4%">
-            <div class="card-header text-muted"><i class="fa fa-calendar"
-                                                   aria-hidden="true"></i> {{ post.published_date }} <i
-                    class="fa fa-hourglass-o" aria-hidden="true"></i><span class="eta"></span></div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    {% for tags in post.tags.all %}
-                        <a class="badge badge-pill badge-primary" href="{% url 'post_by_tag' tags.slug %}">
-                        <i class="fa fa-tag" aria-hidden="true"></i> {{ tags.name }} {% if not forloop.last %}
-                    {% endif %}{% endfor %}</a>
-                </li>
-            </ul>
-            <div class="card-body">
-                <h4 class="card-title" >{{ post.title }}</h4>
-                {% for infobox in post.Infobox.all %}
+<p class="mb-1" >{{ object.text|safe  }}</p>
+{% for infobox in object.Infobox.all %}
                 <table class="table border table-hover table-sm col-3 float-lg-right" style='padding: auto'>
                     <thead class="table-primary">
                     <tr>
@@ -131,13 +78,3 @@
                     </tbody>
                 </table>
                 {% endfor %}
-                <p class="card-text">{{ post.text|safe|escape }}</p>
-            </div>
-            <div class="card-header text-muted">
-            </div>
-        </div>
-    </article>
-
-
-
-{% endblock %}

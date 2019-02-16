@@ -45,7 +45,7 @@
     $(document).ready(function () {
         $('[data-toggle="popover"]').popover({
             placement: 'left',
-            template: '<div class="popover" id="main" role="tooltip"><h3 class="popover-header"></h3><div class="popover-body"></div></div>',
+            template: '<div class="popover shadow-lg  mb-5 bg-white rounded"  role="tooltip"><h3 class="popover-header "></h3><div class="popover-body"></div></div>',
             trigger: 'hover',
             html: true,
         });
@@ -58,3 +58,20 @@
             autoDisplay: false
         }, 'google_translate_element');
     }
+    $(document).ready(function () {
+        $('[data-toggle="pop"]').popover({
+            placement: 'left',
+            template: '<div class="popover border-info shadow-lg  mb-5 bg-white rounded"  role="tooltip"><h3 class="popover-header"></h3><div class="popover-body"></div></div>',
+            trigger: 'hover',
+            html: true,
+        });
+    });
+    $(document).ready(function () {
+        $('[data-toggle="danger"]').popover({
+            placement: 'left',
+            template: '<div class="popover  border-danger shadow-lg  mb-5 bg-white rounded"  role="tooltip"><h3 class="popover-header"></h3><div class="popover-body"></div></div>',
+            trigger: 'hover',
+            html: true,
+        });
+    });
+
