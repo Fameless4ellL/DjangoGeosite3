@@ -1,4 +1,6 @@
 import random
+
+from django.core.paginator import Paginator, InvalidPage, PageNotAnInteger, EmptyPage
 from django.http import HttpResponse, Http404
 from django.shortcuts import render, get_object_or_404
 from django.template.context_processors import csrf
@@ -8,9 +10,8 @@ from haystack.query import SearchQuerySet, EmptySearchQuerySet
 from haystack.views import RESULTS_PER_PAGE
 
 from Gsite.form import FeedbackForm
-from .models import Post, Tags, InfoAboutRock
-from django.core.paginator import Paginator, InvalidPage, PageNotAnInteger, EmptyPage
 from .filters import ProductFilter
+from .models import Post, Tags
 
 
 class SearchView(object):
@@ -155,6 +156,7 @@ class SearchView(object):
 def search_view_factory(view_class=SearchView, *args, **kwargs):
     def search_view(request):
         return view_class(*args, **kwargs)(request)
+
     return search_view
 
 
@@ -183,7 +185,8 @@ class FacetedSearchView(SearchView):
         return extra
 
 
-def post_list(request, load_all=True, form_class=HighlightedModelSearchForm, searchqueryset=None, extra_context=None, results_per_page=None):
+def post_list(request, load_all=True, form_class=HighlightedModelSearchForm, searchqueryset=None, extra_context=None,
+              results_per_page=None):
     global context
     num_post = Post.objects.all()
     tag = Tags.objects.all()
@@ -204,7 +207,8 @@ def post_list(request, load_all=True, form_class=HighlightedModelSearchForm, sea
     # except EmptyPage:
     #     queryset = paginator.page(paginator.num_pages)
     query = ''
-    results = SearchQuerySet().filter(published_date__lte=timezone.now()).order_by('published_date').exclude(content='thisshouldnotmatchanything')
+    results = SearchQuerySet().filter(published_date__lte=timezone.now()).order_by('published_date').exclude(
+        content='thisshouldnotmatchanything')
     if request.GET.get('q'):
         form = form_class(request.GET, searchqueryset=searchqueryset, load_all=load_all)
 
@@ -213,7 +217,6 @@ def post_list(request, load_all=True, form_class=HighlightedModelSearchForm, sea
             results = form.search()
     else:
         form = form_class(searchqueryset=searchqueryset, load_all=load_all)
-
 
     paginator = Paginator(results, 16)
 
@@ -227,7 +230,6 @@ def post_list(request, load_all=True, form_class=HighlightedModelSearchForm, sea
             query = paginator.page(paginator.num_pages)
     except InvalidPage:
         raise Http404("No such page of results!")
-
 
     context = {
         'rand_ids': rand_ids,
@@ -432,4 +434,3 @@ def Feedback(request):
     else:
         form = FeedbackForm()
     return render(request, 'Feedback.html', {'form': form})
-

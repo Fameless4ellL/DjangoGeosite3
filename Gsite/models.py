@@ -13,7 +13,6 @@ class Tags(models.Model):
     def get_absolute_url(self):
         return reverse('post_by_category', args=[self.slug])
 
-
     def __str__(self):
         return self.name
 
@@ -28,19 +27,20 @@ STREAK_CHOICES = (
 
 
 class InfoAboutRock(models.Model):
-    rock = models.CharField(verbose_name=u'Порода или минерал',max_length=200,help_text="Enter a rock " , blank=True)
-    hardness = models.IntegerRangeField(verbose_name=u'Твердость',min_value=0, max_value=10, null=True, blank=True)
+    rock = models.CharField(verbose_name=u'Порода или минерал', max_length=200, help_text="Enter a rock ", blank=True)
+    hardness = models.IntegerRangeField(verbose_name=u'Твердость', min_value=0, max_value=10, null=True, blank=True)
     color = models.CharField(verbose_name=u'Цвет', max_length=50, null=True, blank=True)
     formula = models.TextField(verbose_name=u"Формула", null=True, blank=True, )
     category = models.CharField(verbose_name=u'Категория', max_length=40, null=True, blank=True)
-    Streak = models.CharField(verbose_name=u'полоса, жилка', choices=STREAK_CHOICES, max_length=30, null=True, blank=True)
+    Streak = models.CharField(verbose_name=u'полоса, жилка', choices=STREAK_CHOICES, max_length=30, null=True,
+                              blank=True)
     Opacity = models.CharField(verbose_name=u'Прозрачность', max_length=50, null=True, blank=True)
     Lustre = models.CharField(verbose_name=u'Блеск', max_length=50, null=True, blank=True)
-    SpecificGravity = models.IntegerRangeField(verbose_name=u'Удельный вес',min_value=0, max_value=100, null=True, blank=True)
+    SpecificGravity = models.IntegerRangeField(verbose_name=u'Удельный вес', min_value=0, max_value=100, null=True,
+                                               blank=True)
     Cleavage = models.CharField(verbose_name=u'Спайность', max_length=50, null=True, blank=True)
     Fracture = models.CharField(verbose_name=u'Трещиноватость', max_length=50, null=True, blank=True)
     CristalSystem = models.CharField(verbose_name=u'Кристаллография', max_length=50, null=True, blank=True)
-
 
     def __str__(self):
         return self.rock
@@ -95,6 +95,7 @@ class InfoAboutRock(models.Model):
     class Meta:
         ordering = ('rock',)  # сортировка по алфавиту
 
+
 class Post(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     title = models.CharField('Заголовок', max_length=200)
@@ -119,9 +120,7 @@ class Post(models.Model):
 
 
 class Feedback(models.Model):
-    email = models.EmailField(max_length=254, blank=True, null=True,)
+    email = models.EmailField(max_length=254, blank=True, null=True, )
     title = models.CharField(('Тема'), max_length=200)
     comment = models.TextField(('Описание'))
     created = models.DateTimeField(('Creation date'), auto_now_add=True)
-
-

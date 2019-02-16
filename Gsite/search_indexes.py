@@ -1,6 +1,6 @@
-import datetime
 from haystack import indexes
-from Gsite.models import Post, Tags
+
+from Gsite.models import Post
 
 
 class PostIndex(indexes.SearchIndex, indexes.Indexable):
@@ -23,5 +23,3 @@ class PostIndex(indexes.SearchIndex, indexes.Indexable):
     def index_queryset(self, using=None):
         """используется когда весь индекс модели обновлен"""
         return self.get_model().objects.all()
-
-
