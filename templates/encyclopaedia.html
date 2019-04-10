@@ -10,7 +10,7 @@
 {% block content %}
 
     <div class="jumbotron jumbotron-fluid" style="background-color: rgba(62, 69, 81, 0.7); margin-top: 5%">
-        <video autoplay muted loop poster="{% static 'video/Video Inside A Library.png' %}">
+        <video autoplay muted loop poster="{% static 'video/Video Inside A Library.jpg' %}">
             <source src="{% static 'video/12.mp4' %}" type="video/mp4">
         </video>
         <div class="container text-white">
@@ -187,19 +187,19 @@
                     {% endfor %}
                     <script src="//news.yandex.ru/ru/energy5.utf8.js" charset="utf-8"></script>
                     <script>(function (w, rubric) {
-                        var data = w[rubric];
+                        let data = w[rubric];
                         if (!data || !data.length) {
                             return;
                         }
 
                         function formatDate(ts) {
-                            var d = new Date(ts * 1000);
+                            const d = new Date(ts * 1000);
                             return d.getHours() + ':' + ('0' + d.getMinutes()).substr(-2);
                         }
 
-                        var html = '<h4 style="margin-top: 5%"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Отраслевые новости:</h4>';
-                        for (var i = 0; i < data.length; i++) {
-                            var item = data[i];
+                        let html = '<h4 style="margin-top: 5%"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Отраслевые новости:</h4>';
+                        for (let i = 0; i < data.length; i++) {
+                            const item = data[i];
                             html += '<a href="' + item.url + '" target="_blank" data-toggle="pop"  title="<i class=\'fa fa-calendar\' aria-hidden=\'true\'></i> ' + item.date + '&nbsp;' + item.time + '" data-content="' + item.descr + '" class="list-group-item d-flex justify-content-between align-items-center list-group-item-action border-info" style="color: #111111"> ' + item.title + '<span class="badge badge-pill badge-info"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></span></a>';
                         }
                         html += '<div class="ya-news__all"><a href="//news.yandex.ru/" target="_blank">Все новости на ' + formatDate(w.update_time_t) + '</a></div>';

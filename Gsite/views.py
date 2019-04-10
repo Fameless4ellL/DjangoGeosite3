@@ -262,8 +262,10 @@ def home(request):
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
+    mapVisible = post.place.all()
 
     context = {
+        'mapVisible': mapVisible,
         'post': post,
     }
     return render(request, 'post_detail.html', context)
@@ -434,3 +436,10 @@ def Feedback(request):
     else:
         form = FeedbackForm()
     return render(request, 'Feedback.html', {'form': form})
+
+
+def post(request, post_id=id):
+
+    item = get_object_or_404(Post, id=post_id)
+
+    return render(request,'Post.html', {'post': item})

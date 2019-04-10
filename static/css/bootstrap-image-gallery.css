@@ -10,18 +10,6 @@
  * http://www.opensource.org/licenses/MIT
  */
 
-.blueimp-gallery .modal-body {
-    position: relative;
-    text-align: center;
-    padding: 0 0 56.25% 0;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.blueimp-gallery .modal-footer {
-    margin: 0;
-}
-
 .blueimp-gallery .modal-body img,
 .blueimp-gallery .modal-body .video-content video,
 .blueimp-gallery .modal-body .video-content iframe,
@@ -64,7 +52,9 @@
     cursor: pointer;
 }
 
+/*noinspection ALL*/
 .blueimp-gallery .modal-body .video-content a:after {
+    /*noinspection CssNoGenericFontName,CssNoGenericFontName,CssNoGenericFontName,CssNoGenericFontName,CssNoGenericFontName,CssNoGenericFontName,CssNoGenericFontName*/
     font-family: "Glyphicons Halflings";
     -webkit-font-smoothing: antialiased;
     content: "\e029";
@@ -76,23 +66,9 @@
     top: 50%;
     margin: -32px 0 0 -32px;
 }
-
-.blueimp-gallery .modal-body .video-loading a {
-    background: url(../img/loading.gif) center no-repeat;
-    background-size: 64px 64px;
-}
-
 .blueimp-gallery .modal-body .video-loading a:after {
     content: none;
 }
 
 @media screen and (min-width: 768px) {
-    .blueimp-gallery .modal-dialog {
-        right: auto;
-        left: auto;
-        width: auto;
-        max-width: 900px;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
 }

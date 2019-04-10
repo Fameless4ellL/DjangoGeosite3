@@ -3,6 +3,7 @@
 
 
 <!DOCTYPE html>
+<!--suppress Annotator -->
 <html lang="ru">
 <head>
     <meta charset="utf-8">
@@ -11,6 +12,21 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+    <?xml version="1.0" encoding="UTF-8"?>
+    <urlset
+            xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+    >
+{% spaceless %}
+{% for url in urlset %}
+  <url>
+    <loc>{{ url.location }}</loc>
+    {% if url.lastmod %}<lastmod>{{ url.lastmod|date:"Y-m-d" }}</lastmod>{% endif %}
+    {% if url.changefreq %}<changefreq>{{ url.changefreq }}</changefreq>{% endif %}
+    {% if url.priority %}<priority>{{ url.priority }}</priority>{% endif %}
+   </url>
+{% endfor %}
+{% endspaceless %}
+</urlset>
 
     <title>{% block title %}Gsite{% endblock %}  </title>
     <link rel="shortcut icon" href="{% static 'images/diemond.png' %}" type="image/x-icon">
@@ -39,7 +55,7 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top " style="z-index: 9">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top " style="z-index: 9999">
     <button type="button" class="btn btn-primary btn-sm" style="font-size: 20px" onclick="openNav()">&#9776
     </button>
 

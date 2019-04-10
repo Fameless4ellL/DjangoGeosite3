@@ -4,26 +4,32 @@
  */
 ;
 (function ($, window, document) {
+    // noinspection Annotator
     $.fn.goTop = function (options) {
-        var defaults = {
+        const defaults = {
             scrollTop: 100,
             scrollSpeed: 1000,
             fadeInSpeed: 1000,
             fadeOutSpeed: 500
         };
+        // noinspection Annotator
+        // noinspection ES6ConvertVarToLetConst
+        // noinspection ES6ConvertVarToLetConst
+        // noinspection Annotator
         var options = $.extend(defaults, options);
-        var $this = $(this);
+        const $this = $(this);
         $(window).on('scroll', function () {
+            // noinspection JSValidateTypes
             if ($(window).scrollTop() > options.scrollTop) {
                 $this.fadeIn(options.fadeInSpeed);
             } else {
                 $this.fadeOut(options.fadeOutSpeed);
             }
-        })
+        });
         $this.on('click', function () {
             $('html,body').animate({
                 'scrollTop': 0
             }, options.speed)
         })
     }
-})(jQuery, window, document)
+})(jQuery, window, document);

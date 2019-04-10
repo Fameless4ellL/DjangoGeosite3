@@ -1,14 +1,14 @@
 (function () {
-    var AjaxMonitor, Bar, DocumentMonitor, ElementMonitor, ElementTracker, EventLagMonitor, Evented, Events,
+    let AjaxMonitor, Bar, DocumentMonitor, ElementMonitor, ElementTracker, EventLagMonitor, Evented, Events,
         NoTargetError, Pace, RequestIntercept, SOURCE_KEYS, Scaler, SocketRequestTracker, XHRRequestTracker, animation,
         avgAmplitude, bar, cancelAnimation, cancelAnimationFrame, defaultOptions, extend, extendNative, getFromDOM,
         getIntercept, handlePushState, ignoreStack, init, now, options, requestAnimationFrame, result, runAnimation,
         scalers, shouldIgnoreURL, shouldTrack, source, sources, uniScaler, _WebSocket, _XDomainRequest, _XMLHttpRequest,
-        _i, _intercept, _len, _pushState, _ref, _ref1, _replaceState,
-        __slice = [].slice,
+        _i, _intercept, _len, _pushState, _ref, _ref1, _replaceState;
+    const __slice = [].slice,
         __hasProp = {}.hasOwnProperty,
         __extends = function (child, parent) {
-            for (var key in parent) {
+            for (let key in parent) {
                 if (__hasProp.call(parent, key)) child[key] = parent[key];
             }
 
@@ -16,13 +16,17 @@
                 this.constructor = child;
             }
 
+            // noinspection JSPotentiallyInvalidConstructorUsage
             ctor.prototype = parent.prototype;
+            // noinspection JSPotentiallyInvalidConstructorUsage
             child.prototype = new ctor();
             child.__super__ = parent.prototype;
             return child;
         },
         __indexOf = [].indexOf || function (item) {
-            for (var i = 0, l = this.length; i < l; i++) {
+            let i = 0;
+            const l = this.length;
+            for (; i < l; i++) {
                 if (i in this && this[i] === item) return i;
             }
             return -1;
@@ -56,7 +60,7 @@
     };
 
     now = function () {
-        var _ref;
+        let _ref;
         return (_ref = typeof performance !== "undefined" && performance !== null ? typeof performance.now === "function" ? performance.now() : void 0 : void 0) != null ? _ref : +(new Date);
     };
 
@@ -74,10 +78,10 @@
     }
 
     runAnimation = function (fn) {
-        var last, tick;
+        let last, tick;
         last = now();
         tick = function () {
-            var diff;
+            let diff;
             diff = now() - last;
             if (diff >= 33) {
                 last = now();
@@ -92,7 +96,7 @@
     };
 
     result = function () {
-        var args, key, obj;
+        let args, key, obj;
         obj = arguments[0], key = arguments[1], args = 3 <= arguments.length ? __slice.call(arguments, 2) : [];
         if (typeof obj[key] === 'function') {
             return obj[key].apply(obj, args);
@@ -102,7 +106,7 @@
     };
 
     extend = function () {
-        var key, out, source, sources, val, _i, _len;
+        let key, out, source, sources, val, _i, _len;
         out = arguments[0], sources = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
         for (_i = 0, _len = sources.length; _i < _len; _i++) {
             source = sources[_i];
@@ -122,7 +126,7 @@
     };
 
     avgAmplitude = function (arr) {
-        var count, sum, v, _i, _len;
+        let count, sum, v, _i, _len;
         sum = count = 0;
         for (_i = 0, _len = arr.length; _i < _len; _i++) {
             v = arr[_i];
@@ -133,13 +137,17 @@
     };
 
     getFromDOM = function (key, json) {
-        var data, e, el;
+        let data, e, el;
         if (key == null) {
             key = 'options';
         }
         if (json == null) {
             json = true;
         }
+        // noinspection JSCheckFunctionSignatures
+        // noinspection JSCheckFunctionSignatures
+        // noinspection JSCheckFunctionSignatures
+        // noinspection JSCheckFunctionSignatures
         el = document.querySelector("[data-pace-" + key + "]");
         if (!el) {
             return;
@@ -161,7 +169,7 @@
         }
 
         Evented.prototype.on = function (event, handler, ctx, once) {
-            var _base;
+            let _base;
             if (once == null) {
                 once = false;
             }
@@ -183,7 +191,7 @@
         };
 
         Evented.prototype.off = function (event, handler) {
-            var i, _ref, _results;
+            let i, _ref, _results;
             if (((_ref = this.bindings) != null ? _ref[event] : void 0) == null) {
                 return;
             }
@@ -204,7 +212,7 @@
         };
 
         Evented.prototype.trigger = function () {
-            var args, ctx, event, handler, i, once, _ref, _ref1, _results;
+            let args, ctx, event, handler, i, once, _ref, _ref1, _results;
             event = arguments[0], args = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
             if ((_ref = this.bindings) != null ? _ref[event] : void 0) {
                 i = 0;
@@ -230,8 +238,10 @@
 
     window.Pace = Pace;
 
+    // noinspection JSCheckFunctionSignatures
     extend(Pace, Evented.prototype);
 
+    // noinspection JSCheckFunctionSignatures
     options = Pace.options = extend({}, defaultOptions, window.paceOptions, getFromDOM());
 
     _ref = ['ajax', 'document', 'eventLag', 'elements'];
@@ -260,7 +270,7 @@
         }
 
         Bar.prototype.getElement = function () {
-            var targetElement;
+            let targetElement;
             if (this.el == null) {
                 targetElement = document.querySelector(options.target);
                 if (!targetElement) {
@@ -281,7 +291,7 @@
         };
 
         Bar.prototype.finish = function () {
-            var el;
+            let el;
             el = this.getElement();
             el.className = el.className.replace('pace-active', '');
             el.className += ' pace-inactive';
@@ -304,7 +314,7 @@
         };
 
         Bar.prototype.render = function () {
-            var el, key, progressStr, transform, _j, _len1, _ref2;
+            let el, key, progressStr, transform, _j, _len1, _ref2;
             if (document.querySelector(options.target) == null) {
                 return false;
             }
@@ -342,7 +352,7 @@
         }
 
         Events.prototype.trigger = function (name, val) {
-            var binding, _j, _len1, _ref2, _results;
+            let binding, _j, _len1, _ref2, _results;
             if (this.bindings[name] != null) {
                 _ref2 = this.bindings[name];
                 _results = [];
@@ -355,7 +365,7 @@
         };
 
         Events.prototype.on = function (name, fn) {
-            var _base;
+            let _base;
             if ((_base = this.bindings)[name] == null) {
                 _base[name] = [];
             }
@@ -373,7 +383,7 @@
     _WebSocket = window.WebSocket;
 
     extendNative = function (to, from) {
-        var e, key, _results;
+        let e, key, _results;
         _results = [];
         for (key in from.prototype) {
             try {
@@ -402,7 +412,7 @@
     ignoreStack = [];
 
     Pace.ignore = function () {
-        var args, fn, ret;
+        let args, fn, ret;
         fn = arguments[0], args = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
         ignoreStack.unshift('ignore');
         ret = fn.apply(null, args);
@@ -411,7 +421,7 @@
     };
 
     Pace.track = function () {
-        var args, fn, ret;
+        let args, fn, ret;
         fn = arguments[0], args = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
         ignoreStack.unshift('track');
         ret = fn.apply(null, args);
@@ -420,7 +430,7 @@
     };
 
     shouldTrack = function (method) {
-        var _ref2;
+        let _ref2;
         if (method == null) {
             method = 'GET';
         }
@@ -441,11 +451,11 @@
         __extends(RequestIntercept, _super);
 
         function RequestIntercept() {
-            var monitorXHR,
-                _this = this;
+            let monitorXHR;
+            const _this = this;
             RequestIntercept.__super__.constructor.apply(this, arguments);
             monitorXHR = function (req) {
-                var _open;
+                let _open;
                 _open = req.open;
                 return req.open = function (type, url, async) {
                     if (shouldTrack(type)) {
@@ -458,8 +468,9 @@
                     return _open.apply(req, arguments);
                 };
             };
+            // noinspection JSValidateTypes
             window.XMLHttpRequest = function (flags) {
-                var req;
+                let req;
                 req = new _XMLHttpRequest(flags);
                 monitorXHR(req);
                 return req;
@@ -470,7 +481,7 @@
             }
             if (_XDomainRequest != null) {
                 window.XDomainRequest = function () {
-                    var req;
+                    let req;
                     req = new _XDomainRequest;
                     monitorXHR(req);
                     return req;
@@ -481,8 +492,9 @@
                 }
             }
             if ((_WebSocket != null) && options.ajax.trackWebSockets) {
+                // noinspection JSValidateTypes
                 window.WebSocket = function (url, protocols) {
-                    var req;
+                    let req;
                     if (protocols != null) {
                         req = new _WebSocket(url, protocols);
                     } else {
@@ -519,7 +531,7 @@
     };
 
     shouldIgnoreURL = function (url) {
-        var pattern, _j, _len1, _ref2;
+        let pattern, _j, _len1, _ref2;
         _ref2 = options.ajax.ignoreURLs;
         for (_j = 0, _len1 = _ref2.length; _j < _len1; _j++) {
             pattern = _ref2[_j];
@@ -537,7 +549,7 @@
     };
 
     getIntercept().on('request', function (_arg) {
-        var after, args, request, type, url;
+        let after, args, request, type, url;
         type = _arg.type, request = _arg.request, url = _arg.url;
         if (shouldIgnoreURL(url)) {
             return;
@@ -549,7 +561,7 @@
                 after = 0;
             }
             return setTimeout(function () {
-                var stillActive, _j, _len1, _ref2, _ref3, _results;
+                let stillActive, _j, _len1, _ref2, _ref3, _results;
                 if (type === 'socket') {
                     stillActive = request.readyState < 2;
                 } else {
@@ -576,7 +588,7 @@
 
     AjaxMonitor = (function () {
         function AjaxMonitor() {
-            var _this = this;
+            const _this = this;
             this.elements = [];
             getIntercept().on('request', function () {
                 return _this.watch.apply(_this, arguments);
@@ -584,7 +596,7 @@
         }
 
         AjaxMonitor.prototype.watch = function (_arg) {
-            var request, tracker, type, url;
+            let request, tracker, type, url;
             type = _arg.type, request = _arg.request, url = _arg.url;
             if (shouldIgnoreURL(url)) {
                 return;
@@ -603,8 +615,8 @@
 
     XHRRequestTracker = (function () {
         function XHRRequestTracker(request) {
-            var event, size, _j, _len1, _onreadystatechange, _ref2,
-                _this = this;
+            let event, size, _j, _len1, _onreadystatechange, _ref2;
+            const _this = this;
             this.progress = 0;
             if (window.ProgressEvent != null) {
                 size = null;
@@ -625,7 +637,7 @@
             } else {
                 _onreadystatechange = request.onreadystatechange;
                 request.onreadystatechange = function () {
-                    var _ref3;
+                    let _ref3;
                     if ((_ref3 = request.readyState) === 0 || _ref3 === 4) {
                         _this.progress = 100;
                     } else if (request.readyState === 3) {
@@ -642,8 +654,8 @@
 
     SocketRequestTracker = (function () {
         function SocketRequestTracker(request) {
-            var event, _j, _len1, _ref2,
-                _this = this;
+            let event, _j, _len1, _ref2;
+            const _this = this;
             this.progress = 0;
             _ref2 = ['error', 'open'];
             for (_j = 0, _len1 = _ref2.length; _j < _len1; _j++) {
@@ -660,7 +672,7 @@
 
     ElementMonitor = (function () {
         function ElementMonitor(options) {
-            var selector, _j, _len1, _ref2;
+            let selector, _j, _len1, _ref2;
             if (options == null) {
                 options = {};
             }
@@ -687,7 +699,7 @@
         }
 
         ElementTracker.prototype.check = function () {
-            var _this = this;
+            const _this = this;
             if (document.querySelector(this.selector)) {
                 return this.done();
             } else {
@@ -713,8 +725,8 @@
         };
 
         function DocumentMonitor() {
-            var _onreadystatechange, _ref2,
-                _this = this;
+            let _onreadystatechange, _ref2;
+            const _this = this;
             this.progress = (_ref2 = this.states[document.readyState]) != null ? _ref2 : 100;
             _onreadystatechange = document.onreadystatechange;
             document.onreadystatechange = function () {
@@ -731,15 +743,15 @@
 
     EventLagMonitor = (function () {
         function EventLagMonitor() {
-            var avg, interval, last, points, samples,
-                _this = this;
+            let avg, interval, last, points, samples;
+            const _this = this;
             this.progress = 0;
             avg = 0;
             samples = [];
             points = 0;
             last = now();
             interval = setInterval(function () {
-                var diff;
+                let diff;
                 diff = now() - last - 50;
                 last = now();
                 samples.push(diff);
@@ -773,7 +785,7 @@
         }
 
         Scaler.prototype.tick = function (frameTime, val) {
-            var scaling;
+            let scaling;
             if (val == null) {
                 val = result(this.source, 'progress');
             }
@@ -850,7 +862,7 @@
     };
 
     (init = function () {
-        var type, _j, _k, _len1, _len2, _ref2, _ref3, _ref4;
+        let type, _j, _k, _len1, _len2, _ref2, _ref3, _ref4;
         Pace.sources = sources = [];
         _ref2 = ['ajax', 'elements', 'document', 'eventLag'];
         for (_j = 0, _len1 = _ref2.length; _j < _len1; _j++) {
@@ -890,13 +902,13 @@
     };
 
     Pace.go = function () {
-        var start;
+        let start;
         Pace.running = true;
         bar.render();
         start = now();
         cancelAnimation = false;
         return animation = runAnimation(function (frameTime, enqueueNextFrame) {
-            var avg, count, done, element, elements, i, j, remaining, scaler, scalerList, sum, _j, _k, _len1, _len2,
+            let avg, count, done, element, elements, i, j, remaining, scaler, scalerList, sum, _j, _k, _len1, _len2,
                 _ref2;
             remaining = 100 - bar.progress;
             count = sum = 0;
@@ -933,6 +945,7 @@
     };
 
     Pace.start = function (_options) {
+        // noinspection JSCheckFunctionSignatures
         extend(options, _options);
         Pace.running = true;
         try {

@@ -1,13 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="fa164ee6-4bb1-4f54-9a6b-e7372145363b" name="Default" comment="Update">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gsite/sitemaps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/video/Video Inside A Library.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DjangoGeosite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoGeosite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoGeosite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoGeosite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoGeosite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoGeosite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoGeosite/whoosh_index/_MAIN_80.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoGeosite/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoGeosite/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gsite/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/book.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/book.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-image-gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-image-gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/pace-theme-minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/pace-theme-minimal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/diemond.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/diemond.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.goTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.goTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/pace.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/pace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/Video Inside A Library.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/diamond.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/diamond.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/encyclopaedia.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/encyclopaedia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post_by_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post_by_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.1.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/base_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/base_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/pyproject.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/pyproject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/constructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/constructors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_uninstall.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_uninstall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/temp_dir.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/temp_dir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/ordered_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <ignored path="venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +67,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DjangoGeosite$import.coverage" NAME="import Coverage Results" MODIFIED="1554548840527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -34,6 +86,16 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="Django default" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
     </expand>
     <select />
   </component>
@@ -45,25 +107,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gsite/api/views.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gsite/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="1836">
+              <caret line="115" column="15" selection-start-line="115" selection-start-column="15" selection-end-line="115" selection-end-column="15" />
               <folding>
-                <element signature="e#0#47#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gsite/api/serializer.py">
+      <file leaf-file-name="db.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="57358">
+              <caret column="3374917" selection-start-column="3374917" selection-end-column="3374917" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gsite/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoGeosite/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+              <folding>
+                <element signature="e#637#669#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoGeosite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/post_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="181" column="21" lean-forward="true" selection-start-line="181" selection-start-column="21" selection-end-line="181" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gsite/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4284">
+              <caret line="265" selection-start-line="265" selection-end-line="265" />
+              <folding>
+                <element signature="e#8525#17381#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filters.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gsite/filters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,6 +209,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Setup Script" />
         <option value="Python Script" />
         <option value="HTML File" />
       </list>
@@ -104,6 +238,7 @@
       <find>author</find>
       <find>type</find>
       <find>winsound.pyd</find>
+      <find>SessionMiddleware</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,39 +247,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gsite/filter.py" />
-        <option value="$PROJECT_DIR$/templates/javascripts.html" />
-        <option value="$PROJECT_DIR$/static/css/stylo.css" />
-        <option value="$PROJECT_DIR$/static/css/book.css" />
-        <option value="$PROJECT_DIR$/templates/diemond.html" />
-        <option value="$PROJECT_DIR$/static/css/message.css" />
-        <option value="$PROJECT_DIR$/templates/feedbacktovalid.html" />
-        <option value="$PROJECT_DIR$/static/css/messageCube.css" />
-        <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/Gsite/api/seriallzers.py" />
-        <option value="$PROJECT_DIR$/Gsite/api/serializers.py" />
         <option value="$PROJECT_DIR$/Gsite/serializers.py" />
         <option value="$PROJECT_DIR$/Gsite/api/urls.py" />
-        <option value="$PROJECT_DIR$/Gsite/api/views.py" />
         <option value="$PROJECT_DIR$/Gsite/note_text.txt" />
         <option value="$PROJECT_DIR$/DjangoGeosite/__init__.py" />
         <option value="$PROJECT_DIR$/Gsite/apps.py" />
         <option value="$PROJECT_DIR$/Gsite/__init__.py" />
         <option value="$PROJECT_DIR$/templates/Search/indexes/Post/Post_text" />
         <option value="$PROJECT_DIR$/templates/search.html" />
-        <option value="$PROJECT_DIR$/templates/post_by_category.html" />
-        <option value="$PROJECT_DIR$/DjangoGeosite/settings.py" />
         <option value="$PROJECT_DIR$/templates/Search/search.html" />
         <option value="$PROJECT_DIR$/templates/Search/Post_text" />
         <option value="$PROJECT_DIR$/Gsite/filters.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/haystack/views.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/haystack/urls.py" />
         <option value="$PROJECT_DIR$/templates/search/indexes/search/search.html" />
-        <option value="$PROJECT_DIR$/DjangoGeosite/urls.py" />
         <option value="$PROJECT_DIR$/templates/pagination.html" />
         <option value="$PROJECT_DIR$/templates/search/indexes/Gsite/title_text.txt" />
         <option value="$PROJECT_DIR$/static/js/base.js" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/autocomplete.html" />
         <option value="$PROJECT_DIR$/templates/search_form.html" />
         <option value="$PROJECT_DIR$/templates/search/search.html" />
@@ -152,17 +271,33 @@
         <option value="$PROJECT_DIR$/Gsite/form.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/__init__.py" />
         <option value="$PROJECT_DIR$/Gsite/templatetags/my_tags.py" />
-        <option value="$PROJECT_DIR$/Gsite/admin.py" />
-        <option value="$PROJECT_DIR$/Gsite/models.py" />
         <option value="$PROJECT_DIR$/Gsite/search_indexes.py" />
-        <option value="$PROJECT_DIR$/templates/encyclopaedia.html" />
-        <option value="$PROJECT_DIR$/templates/post_detail.html" />
         <option value="$PROJECT_DIR$/templates/search/indexes/Gsite/post_text.txt" />
         <option value="$PROJECT_DIR$/templates/search/indexes/3.html" />
-        <option value="$PROJECT_DIR$/Gsite/views.py" />
         <option value="$PROJECT_DIR$/Gsite/api/serializer.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/db/models/__init__.py" />
         <option value="$PROJECT_DIR$/templates/Feedback.html" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap-image-gallery.css" />
+        <option value="$PROJECT_DIR$/static/css/iconfont.css" />
+        <option value="$PROJECT_DIR$/Gsite/api/views.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/django_mobile/middleware.py" />
+        <option value="$PROJECT_DIR$/DjangoGeosite/wsgi.py" />
+        <option value="$PROJECT_DIR$/templates/post_by_category.html" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/libgdal.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/location_field/settings.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/import.py" />
+        <option value="$PROJECT_DIR$/data.csv" />
+        <option value="$PROJECT_DIR$/templates/Post.html" />
+        <option value="$PROJECT_DIR$/DjangoGeosite/urls.py" />
+        <option value="$PROJECT_DIR$/templates/encyclopaedia.html" />
+        <option value="$PROJECT_DIR$/Gsite/sitemaps.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/Gsite/admin.py" />
+        <option value="$PROJECT_DIR$/Gsite/models.py" />
+        <option value="$PROJECT_DIR$/Gsite/views.py" />
+        <option value="$PROJECT_DIR$/DjangoGeosite/settings.py" />
+        <option value="$PROJECT_DIR$/templates/post_detail.html" />
       </list>
     </option>
   </component>
@@ -182,8 +317,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="73" />
+    <option name="x" value="-8" />
     <option name="width" value="683" />
     <option name="height" value="738" />
   </component>
@@ -214,44 +348,18 @@
             <path>
               <item name="DjangoGeosite" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoGeosite" type="462c0819:PsiDirectoryNode" />
-              <item name="Gsite" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoGeosite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoGeosite" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoGeosite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoGeosite" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DjangoGeosite" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoGeosite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DjangoGeosite" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoGeosite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoGeosite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoGeosite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="indexes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoGeosite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoGeosite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="indexes" type="462c0819:PsiDirectoryNode" />
-              <item name="Gsite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,13 +370,18 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django/DjangoGeosite" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -298,7 +411,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.DjangoGeosite">
+    <configuration name="import" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DjangoGeosite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/import.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="DjangoGeosite" type="Python.DjangoServer" factoryName="Django server">
       <module name="DjangoGeosite" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -322,6 +454,15 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.DjangoGeosite" />
+      <item itemvalue="Python.import" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.import" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Zaur\AppData\Roaming\Subversion</configuration>
@@ -403,60 +544,63 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="SVN Repositories" order="7" sideWeight="0.49924356" weight="0.329582" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50357425" side_tool="true" weight="0.32668713" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.31511253" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.329582" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.329582" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.329582" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4903537" visible="true" weight="0.17397882" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32668713" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642575" weight="0.32668713" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49722" weight="0.32668713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4903537" visible="true" weight="0.23431295" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32962668" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info id="Structure" order="1" sideWeight="0.5096463" side_tool="true" weight="0.16944024" />
       <window_info id="Favorites" order="2" sideWeight="0.5096463" side_tool="true" weight="0.16944024" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39871383" />
+      <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="7" weight="0.329582" />
+      <window_info anchor="bottom" id="SVN Repositories" order="7" sideWeight="0.49924356" weight="0.329582" />
       <window_info anchor="bottom" id="Thumbnails" order="9" weight="0.329582" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.9067524" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.329582" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="7" weight="0.329582" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.329582" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4903537" visible="true" weight="0.16944024" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.31511253" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.5096463" side_tool="true" weight="0.16944024" />
       <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.329582" />
       <window_info id="Structure" order="1" sideWeight="0.5096463" side_tool="true" weight="0.16944024" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.329582" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.31511253" />
       <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49848714" weight="0.329582" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.329582" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.329582" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4903537" visible="true" weight="0.16944024" />
+      <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="bottom" id="SVN Repositories" order="0" sideWeight="0.49924356" weight="0.329582" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5015129" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
-      <window_info anchor="bottom" id="Database Console" order="16" weight="0.329582" />
-      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="1" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="2" weight="0.329582" />
       <window_info anchor="bottom" id="Python Console" order="15" weight="0.329582" />
@@ -502,528 +646,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/haystack/query.py" />
-    <entry file="file://$PROJECT_DIR$/Gsite/post_text" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/haystack/forms.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/haystack/generic_views.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/haystack/indexes.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/haystack/templates/panels/haystack.html" />
-    <entry file="file://$PROJECT_DIR$/templates/search/indexes/search/search.html" />
-    <entry file="das://afa4de3f-27ae-43f2-8457-fae277edb0a8/schema/main/table/gsite_post">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://afa4de3f-27ae-43f2-8457-fae277edb0a8/schema/main/table/watson_searchentry">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://afa4de3f-27ae-43f2-8457-fae277edb0a8/schema/main/table/auth_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/haystack/urls.py" />
-    <entry file="file://$PROJECT_DIR$/DjangoGeosite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pagination.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="91" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search/indexes/Gsite/title_text.txt" />
-    <entry file="file://$PROJECT_DIR$/Gsite/filters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3876" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/autocomplete.html" />
-    <entry file="file://$PROJECT_DIR$/static/js/base.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/haystack/views.py" />
-    <entry file="file://$PROJECT_DIR$/templates/search_form.html" />
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gsite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gsite/form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gsite/templatetags/my_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/post_image/074-09.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Gsite/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/encyclopaedia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="261" selection-start-line="261" selection-end-line="261" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/post_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="130" column="62" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gsite/search_indexes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="58" selection-start-line="19" selection-start-column="6" selection-end-line="20" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search/indexes/Gsite/post_text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search/indexes/3.html" />
-    <entry file="uml://JavaScript-modules-diagram/E:/WorkPapka/R-TT/DjangoGeosite/venv">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/venv</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/admin.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/base.css</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/base.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_form.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#21711;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#21745;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#23027;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#7149;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/default_urlconf.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_confirmation.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_selected_confirmation.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/error.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/fonts.css</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/forms.css</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/langs/javascript-intro.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.fileupload.js#jquery#662;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/jquery.fileupload.js#jquery.ui.widget#693;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.iframe-transport.js#jquery#552;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.ui.widget.js#jquery#397;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/login.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_change_form.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_confirm.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_form.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/popup_response.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/prepopulated_fields_js.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/related_widget_wrapper.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/related_widget_wrapper.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/search_form.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#ContainerCSS#115940;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#DropdownCSS#114705;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InitSelection#113136;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InputCompat#121371;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#Query#112916;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#jquery#381;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#translations#57785;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.min.js#jquery#179;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote-bs4.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote-bs4.min.js#jquery#156;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote-lite.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote-lite.min.js#jquery#156;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote.min.js#jquery#156;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/templates/django_summernote/widget_iframe_editor.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/widgets.css</node>
-            <node x="" y="" />
-            <node x="" y="">/static/admin/css/fonts.css</node>
-            <node x="" y="">auth</node>
-            <node x="" y="">basic</node>
-            <node x="" y="">client</node>
-            <node x="" y="">codecs</node>
-            <node x="" y="">codemirror</node>
-            <node x="" y="">compat/containerCss</node>
-            <node x="" y="">compat/dropdownCss</node>
-            <node x="" y="">compat/initSelection</node>
-            <node x="" y="">compat/inputData</node>
-            <node x="" y="">compat/query</node>
-            <node x="" y="">corejson</node>
-            <node x="" y="">document</node>
-            <node x="" y="">errors</node>
-            <node x="" y="">http</node>
-            <node x="" y="">isomorphic-fetch</node>
-            <node x="" y="">jquery</node>
-            <node x="" y="">jquery.ui.widget</node>
-            <node x="" y="">json</node>
-            <node x="" y="">lolcation</node>
-            <node x="" y="">path</node>
-            <node x="" y="">querystringify</node>
-            <node x="" y="">requires-port</node>
-            <node x="" y="">session</node>
-            <node x="" y="">text</node>
-            <node x="" y="">token</node>
-            <node x="" y="">transports</node>
-            <node x="" y="">url-parse</node>
-            <node x="" y="">url-template</node>
-            <node x="" y="">utils</node>
-            <node x="" y="">whatwg-fetch</node>
-            <node x="" y="">{% block stylesheet %}{% static</node>
-            <node x="" y="">{% block stylesheet_rtl %}{% static</node>
-            <node x="" y="">{% static</node>
-            <node x="" y="">{% static 'admin/img/icon-addlink.svg' %}</node>
-            <node x="" y="">{% static 'admin/img/icon-changelink.svg' %}</node>
-            <node x="" y="">{% static 'admin/img/icon-deletelink.svg' %}</node>
-            <node x="" y="">{% static 'admin/img/icon-viewlink.svg' %}</node>
-            <node x="" y="">{% static 'admin/js/cancel.js' %}</node>
-            <node x="" y="">{% static 'admin/js/change_form.js' %}</node>
-            <node x="" y="">{% static 'rest_framework/css/bootstrap-theme.min.css' %}</node>
-            <node x="" y="">{% static 'rest_framework/css/bootstrap.min.css' %}</node>
-            <node x="" y="">{% static 'rest_framework/css/font-awesome-4.0.3.css' %}</node>
-            <node x="" y="">{% static 'rest_framework/docs/css/base.css' %}</node>
-            <node x="" y="">{% static 'rest_framework/docs/css/jquery.json-view.min.css' %}</node>
-            <node x="" y="">{% static 'rest_framework/docs/img/favicon.ico' %}</node>
-            <node x="" y="">{% static 'rest_framework/docs/js/api.js' %}</node>
-            <node x="" y="">{% static 'rest_framework/docs/js/jquery.json-view.min.js' %}</node>
-            <node x="" y="">{% static 'rest_framework/js/bootstrap.min.js' %}</node>
-            <node x="" y="">{% static 'rest_framework/js/coreapi-0.1.1.js' %}</node>
-            <node x="" y="">{% static 'rest_framework/js/jquery-3.3.1.min.js' %}</node>
-            <node x="" y="">{% url 'admin:jsi18n' %}</node>
-            <node x="" y="">{% url 'api-docs:schema-js' %}</node>
-            <node x="" y="">{{ url }}</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.5" x="1065.0" y="636.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram/E:/WorkPapka/R-TT/DjangoGeosite/templates">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/templates</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://Python/#E:/WorkPapka/R-TT/DjangoGeosite/Gsite">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#E:/WorkPapka/R-TT/DjangoGeosite/Gsite</OriginalElement>
-          <nodes>
-            <node x="" y="">django.db.migrations.migration.Migration</node>
-            <node x="" y="">Gsite.admin.PostAdmin</node>
-            <node x="" y="">Gsite.models.Post</node>
-            <node x="" y="">Gsite.admin.FeedbackAdmin</node>
-            <node x="" y="">django.forms.models.ModelForm</node>
-            <node x="" y="">rest_framework.serializers.HyperlinkedModelSerializer</node>
-            <node x="" y="">django_summernote.admin.SummernoteModelAdminMixin</node>
-            <node x="" y="">rest_framework.serializers.ModelSerializer</node>
-            <node x="" y="">django.forms.models.BaseModelForm</node>
-            <node x="" y="">object</node>
-            <node x="" y="">Gsite.models.InfoAboutRock</node>
-            <node x="" y="">rest_framework.serializers.BaseSerializer</node>
-            <node x="" y="">Gsite.filters.ProductFilter</node>
-            <node x="" y="">Gsite.views.FacetedSearchView</node>
-            <node x="" y="">django_summernote.admin.SummernoteModelAdmin</node>
-            <node x="" y="">haystack.indexes.SearchIndex</node>
-            <node x="" y="">django.contrib.admin.options.BaseModelAdmin</node>
-            <node x="" y="">Gsite.form.FeedbackForm</node>
-            <node x="" y="">django_filters.filterset.FilterSetMetaclass</node>
-            <node x="" y="">Gsite.models.Tags</node>
-            <node x="" y="">haystack.constants.Indexable</node>
-            <node x="" y="">django.db.models.base.Model</node>
-            <node x="" y="">Gsite.admin.infoboxAdmin</node>
-            <node x="" y="">rest_framework.mixins.ListModelMixin</node>
-            <node x="" y="">Gsite.api.serializer.TagSerializer</node>
-            <node x="" y="">haystack.indexes.DeclarativeMetaclass</node>
-            <node x="" y="">Gsite.apps.GsiteConfig</node>
-            <node x="" y="">rest_framework.serializers.Serializer</node>
-            <node x="" y="">django.contrib.admin.options.ModelAdmin</node>
-            <node x="" y="">Gsite.serializers.PostSerializer</node>
-            <node x="" y="">django.forms.widgets.MediaDefiningClass</node>
-            <node x="" y="">Gsite.api.views.PostListAPIView</node>
-            <node x="" y="">Gsite.api.serializer.PostSerializer</node>
-            <node x="" y="">Gsite.views.SearchView</node>
-            <node x="" y="">rest_framework.views.APIView</node>
-            <node x="" y="">django.forms.forms.BaseForm</node>
-            <node x="" y="">django.views.generic.base.View</node>
-            <node x="" y="">rest_framework.generics.GenericAPIView</node>
-            <node x="" y="">Gsite.models.Feedback</node>
-            <node x="" y="">django.apps.config.AppConfig</node>
-            <node x="" y="">django_filters.filterset.FilterSet</node>
-            <node x="" y="">django.forms.models.ModelFormMetaclass</node>
-            <node x="" y="">django_filters.filterset.BaseFilterSet</node>
-            <node x="" y="">rest_framework.fields.Field</node>
-            <node x="" y="">rest_framework.generics.ListAPIView</node>
-            <node x="" y="">django.db.models.base.ModelBase</node>
-            <node x="" y="">Gsite.search_indexes.PostIndex</node>
-            <node x="" y="">rest_framework.serializers.SerializerMetaclass</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.024493968513596" x="3756.0" y="186.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram/E:/WorkPapka/R-TT/DjangoGeosite/Gsite">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/Gsite</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="549.0" y="185.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram/E:/WorkPapka/R-TT/DjangoGeosite">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/admin.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/base.css</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/base.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base.html</node>
-            <node x="" y="">$PROJECT_DIR$/static/js/boostrap.min.js#jquery#334;E:/WorkPapka/R-TT/DjangoGeosite/static/js/boostrap.min.js#popper.js#353;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_form.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#21711;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#21745;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#23027;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#7149;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/default_urlconf.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_confirmation.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_selected_confirmation.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/error.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/fonts.css</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/forms.css</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/langs/javascript-intro.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.fileupload.js#jquery#662;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/jquery.fileupload.js#jquery.ui.widget#693;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.iframe-transport.js#jquery#552;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.ui.widget.js#jquery#397;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/login.html</node>
-            <node x="" y="">$PROJECT_DIR$/static/js/pace.js;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_change_form.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_confirm.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_form.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/popup_response.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/prepopulated_fields_js.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/related_widget_wrapper.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/related_widget_wrapper.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/search_form.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#ContainerCSS#115940;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#DropdownCSS#114705;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InitSelection#113136;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InputCompat#121371;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#Query#112916;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#jquery#381;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#translations#57785;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.min.js#jquery#179;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote-bs4.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote-bs4.min.js#jquery#156;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote-lite.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote-lite.min.js#jquery#156;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote.min.js#jquery#156;</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/templates/django_summernote/widget_iframe_editor.html</node>
-            <node x="" y="">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/widgets.css</node>
-            <node x="" y="" />
-            <node x="" y="">/static/admin/css/fonts.css</node>
-            <node x="" y="">auth</node>
-            <node x="" y="">basic</node>
-            <node x="" y="">client</node>
-            <node x="" y="">codecs</node>
-            <node x="" y="">codemirror</node>
-            <node x="" y="">compat/containerCss</node>
-            <node x="" y="">compat/dropdownCss</node>
-            <node x="" y="">compat/initSelection</node>
-            <node x="" y="">compat/inputData</node>
-            <node x="" y="">compat/query</node>
-            <node x="" y="">corejson</node>
-            <node x="" y="">document</node>
-            <node x="" y="">errors</node>
-            <node x="" y="">http</node>
-            <node x="" y="">isomorphic-fetch</node>
-            <node x="" y="">jquery</node>
-            <node x="" y="">jquery.ui.widget</node>
-            <node x="" y="">json</node>
-            <node x="" y="">lolcation</node>
-            <node x="" y="">pace</node>
-            <node x="" y="">path</node>
-            <node x="" y="">popper.js</node>
-            <node x="" y="">querystringify</node>
-            <node x="" y="">requires-port</node>
-            <node x="" y="">session</node>
-            <node x="" y="">text</node>
-            <node x="" y="">token</node>
-            <node x="" y="">transports</node>
-            <node x="" y="">url-parse</node>
-            <node x="" y="">url-template</node>
-            <node x="" y="">utils</node>
-            <node x="" y="">whatwg-fetch</node>
-            <node x="" y="">{% block stylesheet %}{% static</node>
-            <node x="" y="">{% block stylesheet_rtl %}{% static</node>
-            <node x="" y="">{% static</node>
-            <node x="" y="">{% static 'admin/img/icon-addlink.svg' %}</node>
-            <node x="" y="">{% static 'admin/img/icon-changelink.svg' %}</node>
-            <node x="" y="">{% static 'admin/img/icon-deletelink.svg' %}</node>
-            <node x="" y="">{% static 'admin/img/icon-viewlink.svg' %}</node>
-            <node x="" y="">{% static 'admin/js/cancel.js' %}</node>
-            <node x="" y="">{% static 'admin/js/change_form.js' %}</node>
-            <node x="" y="">{% static 'rest_framework/css/bootstrap-theme.min.css' %}</node>
-            <node x="" y="">{% static 'rest_framework/css/bootstrap.min.css' %}</node>
-            <node x="" y="">{% static 'rest_framework/css/font-awesome-4.0.3.css' %}</node>
-            <node x="" y="">{% static 'rest_framework/docs/css/base.css' %}</node>
-            <node x="" y="">{% static 'rest_framework/docs/css/jquery.json-view.min.css' %}</node>
-            <node x="" y="">{% static 'rest_framework/docs/img/favicon.ico' %}</node>
-            <node x="" y="">{% static 'rest_framework/docs/js/api.js' %}</node>
-            <node x="" y="">{% static 'rest_framework/docs/js/jquery.json-view.min.js' %}</node>
-            <node x="" y="">{% static 'rest_framework/js/bootstrap.min.js' %}</node>
-            <node x="" y="">{% static 'rest_framework/js/coreapi-0.1.1.js' %}</node>
-            <node x="" y="">{% static 'rest_framework/js/jquery-3.3.1.min.js' %}</node>
-            <node x="" y="">{% url 'admin:jsi18n' %}</node>
-            <node x="" y="">{% url 'api-docs:schema-js' %}</node>
-            <node x="" y="">{{ url }}</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.19042717447246527" x="975.0" y="962.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DjangoModelDependency/#DjangoGeosite">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DjangoModelDependency</ID>
-          <OriginalElement>#DjangoGeosite</OriginalElement>
-          <nodes>
-            <node x="" y="">Gsite.models.InfoAboutRock</node>
-            <node x="" y="">Gsite.models.Tags</node>
-            <node x="" y="">Gsite.models.Feedback</node>
-            <node x="" y="">django.contrib.auth.models.User</node>
-            <node x="" y="">Gsite.models.Post</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="278.0" y="93.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gsite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="436" lean-forward="true" selection-start-line="436" selection-end-line="436" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gsite/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoGeosite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gsite/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gsite/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/db/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search/search.html" />
     <entry file="file://$PROJECT_DIR$/Gsite/api/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1041,23 +667,806 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2448" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap-image-gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DjangoModelDependency/#DjangoGeosite">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DjangoModelDependency</ID>
+          <OriginalElement>#DjangoGeosite</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">Gsite.models.InfoAboutRock</node>
+            <node x="472.0" y="110.0">Gsite.models.Tags</node>
+            <node x="0.0" y="617.0">Gsite.models.Feedback</node>
+            <node x="247.0" y="132.0">django.contrib.auth.models.User</node>
+            <node x="244.5" y="366.0">Gsite.models.Post</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Gsite.models.Post" target="django.contrib.auth.models.User">
+              <point x="0.0" y="-103.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="Gsite.models.Post" target="Gsite.models.Tags">
+              <point x="70.0" y="-103.0" />
+              <point x="419.5" y="341.0" />
+              <point x="544.5" y="341.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="Gsite.models.Post" target="Gsite.models.InfoAboutRock">
+              <point x="-70.0" y="-103.0" />
+              <point x="279.5" y="341.0" />
+              <point x="113.5" y="341.0" />
+              <point x="0.0" y="158.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7496688741721854" x="-89.0" y="310.0" />
+          <SelectedNodes>
+            <node>Gsite.models.Post</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/E:/WorkPapka/R-TT/DjangoGeosite">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="954.0" y="453.0">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/admin.html</node>
+            <node x="920.0" y="1937.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/base.css</node>
+            <node x="1028.0" y="384.0">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/base.html</node>
+            <node x="1312.0" y="158.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base.html</node>
+            <node x="425.0" y="851.0">$PROJECT_DIR$/static/js/boostrap.min.js#jquery#334;E:/WorkPapka/R-TT/DjangoGeosite/static/js/boostrap.min.js#popper.js#353;</node>
+            <node x="1295.0" y="671.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_form.html</node>
+            <node x="1346.0" y="478.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list.html</node>
+            <node x="1429.0" y="402.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html</node>
+            <node x="238.0" y="1141.0">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;</node>
+            <node x="661.0" y="1953.0">$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/default_urlconf.html</node>
+            <node x="2051.0" y="1052.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_confirmation.html</node>
+            <node x="1822.0" y="1239.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_selected_confirmation.html</node>
+            <node x="720.0" y="1510.0">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/error.html</node>
+            <node x="901.0" y="1837.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/fonts.css</node>
+            <node x="349.0" y="1964.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/forms.css</node>
+            <node x="986.0" y="1264.0">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html</node>
+            <node x="1213.0" y="227.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/index.html</node>
+            <node x="919.0" y="1546.0">$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/langs/javascript-intro.html</node>
+            <node x="62.0" y="549.0">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.fileupload.js#jquery#662;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/jquery.fileupload.js#jquery.ui.widget#693;</node>
+            <node x="575.0" y="663.0">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.iframe-transport.js#jquery#552;</node>
+            <node x="425.0" y="755.0">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.ui.widget.js#jquery#397;</node>
+            <node x="1214.0" y="591.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/login.html</node>
+            <node x="497.0" y="1931.0">$PROJECT_DIR$/static/js/pace.js;</node>
+            <node x="1000.0" y="660.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_change_form.html</node>
+            <node x="1416.0" y="241.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_confirm.html</node>
+            <node x="1023.0" y="315.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_form.html</node>
+            <node x="1067.0" y="149.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/popup_response.html</node>
+            <node x="1091.0" y="522.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/prepopulated_fields_js.html</node>
+            <node x="1533.0" y="1274.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/related_widget_wrapper.html</node>
+            <node x="1404.0" y="1121.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/related_widget_wrapper.html</node>
+            <node x="949.0" y="220.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/search_form.html</node>
+            <node x="487.0" y="156.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#ContainerCSS#115940;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#DropdownCSS#114705;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InitSelection#113136;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InputCompat#121371;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#Query#112916;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#jquery#381;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#translations#57785;</node>
+            <node x="176.0" y="756.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.min.js#jquery#179;</node>
+            <node x="103.0" y="355.0">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote-bs4.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote-bs4.min.js#jquery#156;</node>
+            <node x="637.0" y="449.0">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote-lite.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote-lite.min.js#jquery#156;</node>
+            <node x="350.0" y="469.0">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote.min.js#jquery#156;</node>
+            <node x="1304.0" y="317.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html</node>
+            <node x="0.0" y="2017.0">$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/templates/django_summernote/widget_iframe_editor.html</node>
+            <node x="329.0" y="1837.0">$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/widgets.css</node>
+            <node x="100.0" y="1837.0" />
+            <node x="720.0" y="1837.0">/static/admin/css/fonts.css</node>
+            <node x="574.0" y="1288.0">auth</node>
+            <node x="96.0" y="1179.0">basic</node>
+            <node x="0.0" y="1329.0">client</node>
+            <node x="458.0" y="1631.0">codecs</node>
+            <node x="413.0" y="380.0">codemirror</node>
+            <node x="291.0" y="117.0">compat/containerCss</node>
+            <node x="430.0" y="0.0">compat/dropdownCss</node>
+            <node x="612.0" y="15.0">compat/initSelection</node>
+            <node x="746.0" y="134.0">compat/inputData</node>
+            <node x="775.0" y="233.0">compat/query</node>
+            <node x="548.0" y="1594.0">corejson</node>
+            <node x="11.0" y="1248.0">document</node>
+            <node x="143.0" y="1632.0">errors</node>
+            <node x="523.0" y="1150.0">http</node>
+            <node x="302.0" y="1052.0">isomorphic-fetch</node>
+            <node x="435.0" y="583.0">jquery</node>
+            <node x="0.0" y="663.0">jquery.ui.widget</node>
+            <node x="68.0" y="1572.0">json</node>
+            <node x="602.0" y="1454.0">lolcation</node>
+            <node x="495.0" y="1837.0">pace</node>
+            <node x="763.0" y="322.0">path</node>
+            <node x="498.0" y="979.0">popper.js</node>
+            <node x="254.0" y="1695.0">querystringify</node>
+            <node x="380.0" y="1708.0">requires-port</node>
+            <node x="211.0" y="1072.0">session</node>
+            <node x="8.0" y="1427.0">text</node>
+            <node x="31.0" y="1503.0">token</node>
+            <node x="610.0" y="1372.0">transports</node>
+            <node x="423.0" y="1125.0">url-parse</node>
+            <node x="92.0" y="1104.0">url-template</node>
+            <node x="568.0" y="1219.0">utils</node>
+            <node x="203.0" y="1764.0">whatwg-fetch</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="url-parse">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/prepopulated_fields_js.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% static 'rest_framework/docs/css/base.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="whatwg-fetch">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="utils">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_form.html" target="{% url 'admin:jsi18n' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/default_urlconf.html" target="/static/admin/css/fonts.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/popup_response.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/base.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base.html" target="{% block stylesheet %}{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.iframe-transport.js#jquery#552;" target="jquery">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#ContainerCSS#115940;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#DropdownCSS#114705;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InitSelection#113136;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InputCompat#121371;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#Query#112916;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#jquery#381;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#translations#57785;" target="path">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="errors">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list.html" target="{% url 'admin:jsi18n' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#ContainerCSS#115940;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#DropdownCSS#114705;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InitSelection#113136;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InputCompat#121371;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#Query#112916;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#jquery#381;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#translations#57785;" target="compat/initSelection">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% static 'rest_framework/js/bootstrap.min.js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.fileupload.js#jquery#662;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/jquery.fileupload.js#jquery.ui.widget#693;" target="jquery">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/static/js/boostrap.min.js#jquery#334;E:/WorkPapka/R-TT/DjangoGeosite/static/js/boostrap.min.js#popper.js#353;" target="popper.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="basic">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/related_widget_wrapper.html" target="{% static 'admin/img/icon-addlink.svg' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/search_form.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% static 'rest_framework/css/bootstrap-theme.min.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#ContainerCSS#115940;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#DropdownCSS#114705;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InitSelection#113136;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InputCompat#121371;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#Query#112916;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#jquery#381;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#translations#57785;" target="compat/query">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#ContainerCSS#115940;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#DropdownCSS#114705;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InitSelection#113136;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InputCompat#121371;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#Query#112916;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#jquery#381;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#translations#57785;" target="compat/dropdownCss">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/base.css" target="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/fonts.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% static 'rest_framework/docs/js/jquery.json-view.min.js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="codecs">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% static 'rest_framework/css/bootstrap.min.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base.html" target="{% block stylesheet_rtl %}{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/index.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#ContainerCSS#115940;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#DropdownCSS#114705;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InitSelection#113136;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InputCompat#121371;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#Query#112916;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#jquery#381;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#translations#57785;" target="compat/inputData">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/related_widget_wrapper.html" target="{% static 'admin/img/icon-deletelink.svg' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% static 'rest_framework/docs/js/api.js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html" target="{% url 'admin:jsi18n' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="text">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_change_form.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#ContainerCSS#115940;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#DropdownCSS#114705;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InitSelection#113136;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InputCompat#121371;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#Query#112916;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#jquery#381;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#translations#57785;" target="compat/containerCss">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="auth">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_confirmation.html" target="{% static 'admin/js/cancel.js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="url-template">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="client">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/error.html" target="{% static 'rest_framework/js/jquery-3.3.1.min.js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="session">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% static 'rest_framework/js/jquery-3.3.1.min.js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% static 'rest_framework/css/font-awesome-4.0.3.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/related_widget_wrapper.html" target="{% static 'admin/img/icon-changelink.svg' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.min.js#jquery#179;" target="jquery">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/login.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/related_widget_wrapper.html" target="{% static 'admin/img/icon-addlink.svg' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/templates/django_summernote/widget_iframe_editor.html" target="{{ url }}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="isomorphic-fetch">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/langs/javascript-intro.html" target="{% url 'api-docs:schema-js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_form.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_form.html" target="{% static 'admin/js/change_form.js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="corejson">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="requires-port">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="http">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote-bs4.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote-bs4.min.js#jquery#156;" target="jquery">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#ContainerCSS#115940;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#DropdownCSS#114705;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InitSelection#113136;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#InputCompat#121371;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#Query#112916;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#jquery#381;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js#translations#57785;" target="jquery">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% static 'rest_framework/docs/img/favicon.ico' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote-lite.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote-lite.min.js#jquery#156;" target="codemirror">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/static/js/boostrap.min.js#jquery#334;E:/WorkPapka/R-TT/DjangoGeosite/static/js/boostrap.min.js#popper.js#353;" target="jquery">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_selected_confirmation.html" target="{% static 'admin/js/cancel.js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_confirm.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="transports">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/related_widget_wrapper.html" target="{% static 'admin/img/icon-deletelink.svg' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% static 'rest_framework/js/coreapi-0.1.1.js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="document">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote.min.js#jquery#156;" target="codemirror">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="querystringify">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/static/js/pace.js;" target="pace">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote.min.js#jquery#156;" target="jquery">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.ui.widget.js#jquery#397;" target="jquery">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/related_widget_wrapper.html" target="{% static 'admin/img/icon-changelink.svg' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/related_widget_wrapper.html" target="{% static 'admin/img/icon-viewlink.svg' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% url 'api-docs:schema-js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/index.html" target="{% static 'rest_framework/docs/css/jquery.json-view.min.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="token">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="json">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote-bs4.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote-bs4.min.js#jquery#156;" target="codemirror">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/admin.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_form.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/summernote-lite.min.js;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/summernote-lite.min.js#jquery#156;" target="jquery">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js##44426;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#URL#23095;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#auth#21647;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#basic#2326;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#client#21677;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#codecs#7081;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#corejson#14424;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#document#7043;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#errors#7115;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#fetch#22986;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#http#28340;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#json#14462;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#lolcation#33455;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#qs#33494;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#required#33415;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#session#2358;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#text#14492;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#token#2394;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#transports#21817;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#urlTemplate#23127;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#utils#3421;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js#whatwg-fetch#31124;" target="lolcation">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django_summernote/static/summernote/jquery.fileupload.js#jquery#662;E:/WorkPapka/R-TT/DjangoGeosite/venv/Lib/site-packages/django_summernote/static/summernote/jquery.fileupload.js#jquery.ui.widget#693;" target="jquery.ui.widget">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html" target="{% static">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/forms.css" target="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/admin/css/widgets.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/templates/rest_framework/docs/langs/javascript-intro.html" target="{% static 'rest_framework/js/coreapi-0.1.1.js' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.27409200968523" x="1127.0" y="1023.0" />
+          <SelectedNodes>
+            <node />
+          </SelectedNodes>
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gsite/serializers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django_mobile/middleware.py" />
+    <entry file="file://$PROJECT_DIR$/DjangoGeosite/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gsite/api/serializer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="374">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gsite/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/post_by_category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/ctypes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/gdal/libgdal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gsite/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/postgresql/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="120" column="18" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/location_field/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/location_field/forms/plain.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/location_field/forms/spatial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/location_field/models/base.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/location_field/models/plain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gsite/api/views.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/location_field/models/spatial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/location_field/templates/location_field/map_widget.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="17">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/location_field/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/location_field/widgets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/location_field/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/location_field/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/diamond.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1003">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/encyclopaedia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gsite/sitemaps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.csv">
+      <provider editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gsite/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoGeosite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gsite/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57358">
+          <caret column="3374917" selection-start-column="3374917" selection-end-column="3374917" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gsite/search_indexes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gsite/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4284">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
+          <folding>
+            <element signature="e#8525#17381#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gsite/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="115" column="15" selection-start-line="115" selection-start-column="15" selection-end-line="115" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoGeosite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/post_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="181" column="21" lean-forward="true" selection-start-line="181" selection-start-column="21" selection-end-line="181" selection-end-column="21" />
         </state>
       </provider>
     </entry>

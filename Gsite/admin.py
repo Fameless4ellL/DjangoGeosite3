@@ -1,17 +1,23 @@
 from django.contrib import admin
 from django_summernote.admin import SummernoteModelAdmin
+from import_export.admin import ImportExportModelAdmin
 
-from .models import Post, Tags, Feedback, InfoAboutRock
+from .models import Post, Tags, Feedback, InfoAboutRock, Place
 
 
-class PostAdmin(SummernoteModelAdmin):
+class PostAdmin(SummernoteModelAdmin,ImportExportModelAdmin):
+    filter_horizontal = ('tags','Infobox','place',)
     fieldsets = (
         (None, {
-            'fields': ('author', 'title', 'text', 'thumb', 'tags', 'created_date', 'published_date')
+            'fields': ('author', 'title', 'text', 'thumb','ImgForInfobox', 'tags', 'created_date', 'published_date')
         }),
         ('Дополнительные опции для пород и минералов', {
             'classes': ('collapse',),
             'fields': ('Infobox',),
+        }),
+        ('Местоположение', {
+            'classes': ('collapse',),
+            'fields': ('place',),
         }),
     )
     summernote_fields = ('text')
@@ -23,12 +29,13 @@ class PostAdmin(SummernoteModelAdmin):
         return "\n".join([p.name for p in obj.tags.all()])
 
 
-class infoboxAdmin(SummernoteModelAdmin):
+class infoboxAdmin(SummernoteModelAdmin,ImportExportModelAdmin):
     summernote_fields = ('formula')
 
 
 admin.site.register(Post, PostAdmin)
 admin.site.register(Tags)
+admin.site.register(Place)
 admin.site.register(InfoAboutRock, infoboxAdmin)
 
 

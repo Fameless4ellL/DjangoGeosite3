@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 {% load my_tags %}
+{% load leaflet_tags %}
 
 {% block title %}
     {{ post }}
@@ -8,6 +9,7 @@
 {% endblock %}
 
 {% block content %}
+    <!--suppress Annotator -->
     <style>
         img {
             max-width: 100%;
@@ -47,9 +49,14 @@
             }
         }
     </style>
+    <head>
+        {% leaflet_js %}
+        {% leaflet_css %}
+    </head>
+
     <article class="article" style="margin-top: 10%">
         <div class="card border-primary mb-3"
-             style="margin: auto;  margin-left: 10%; margin-right: 10%; margin-top: 4%">
+             style="margin: 4% 10% auto;">
             <div class="card-header text-muted"><i class="fa fa-calendar"
                                                    aria-hidden="true"></i> {{ post.published_date }} <i
                     class="fa fa-hourglass-o" aria-hidden="true"></i><span class="eta"></span></div>
@@ -63,82 +70,129 @@
             </ul>
             <div class="card-body">
                 <h4 class="card-title">{{ post.title }}</h4>
-                {% for infobox in post.Infobox.all %}
-                    <table class="table border table-hover table-sm col-3 float-lg-right" style='padding: auto'>
-                        <thead class="table-primary">
-                        <tr>
-                            <td colspan="2" style="text-align: center"><strong>{{ infobox.rock }}</strong></td>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>{% if post.thumb %}
-                            <th colspan="2"><img src="{{ post.thumb.url }}" alt="{{ post.thumb }} "
-                                                 style="display: block; margin-right: auto; margin-left: auto; width: 50%">
-                            </th>
-                            </tr>{% endif %}
-                        <thead class="table-info">
-                        <tr>
-                            <td colspan="2" style="text-align: center"><strong>Общее</strong></td>
-                        </tr>
-                        </thead>
-                        <tr>{% if infobox.formula %}
-                            <th scope="row">{{ infobox.name_label }}:</th>
-                            <td>{{ infobox.formula|safe }}</td>
-                            </tr>{% endif %}
-                        <tr>{% if infobox.category %}
-                            <th scope="row">{{ infobox.category_label }}:</th>
-                            <td>{{ infobox.category }}</td>
-                            </tr>{% endif %}
-                        <tr>{% if infobox.CristalSystem %}
-                            <th scope="row">{{ infobox.CristalSystem_label }}:</th>
-                            <td>{{ infobox.CristalSystem }}</td>
-                            </tr>{% endif %}
-                        <thead class="table-info">
-                        <tr>
-                            <td colspan="2" style="text-align: center"><strong>Индентификация</strong></td>
-                        </tr>
-                        </thead>
-                        <tr>{% if infobox.color %}
-                            <th scope="row">{{ infobox.color_label }}:</th>
-                            <td>{{ infobox.color }}</td>
-                            </tr>{% endif %}
-                        <tr>{% if infobox.hardness %}
-                            <th scope="row">{{ infobox.hardness_label }}:</th>
-                            <td>~{{ infobox.hardness }}</td>
-                            </tr>{% endif %}
-                        <tr>{% if infobox.Cleavage %}
-                            <th scope="row">{{ infobox.Cleavage_label }}:</th>
-                            <td>{{ infobox.Cleavage }}</td>
-                            </tr>{% endif %}
-                        <tr>{% if infobox.Fracture %}
-                            <th scope="row">{{ infobox.Fracture_label }}:</th>
-                            <td>{{ infobox.Fracture }}</td>
-                            </tr>{% endif %}
-                        <tr>{% if infobox.Lustre %}
-                            <th scope="row">{{ infobox.Lustre_label }}:</th>
-                            <td>{{ infobox.Lustre }}</td>
-                            </tr>{% endif %}
-                        <tr>{% if infobox.Opacity %}
-                            <th scope="row">{{ infobox.Opacity_label }}:</th>
-                            <td>{{ infobox.Opacity }}</td>
-                            </tr>{% endif %}
-                        <tr>{% if infobox.Streak %}
-                            <th scope="row">{{ infobox.Streak_label }}:</th>
-                            <td>{{ infobox.Streak }}</td>
-                            </tr>{% endif %}
-                        <tr>{% if infobox.SpecificGravity %}
-                            <th scope="row">{{ infobox.SpecificGravity_label }}:</th>
-                            <td>~{{ infobox.SpecificGravity }}</td>
-                            </tr>{% endif %}
-                        </tbody>
-                    </table>
-                {% endfor %}
-                <p class="card-text">{{ post.text|safe|escape }}</p>
-            </div>
-            <div class="card-header text-muted">
+            {% if not mapVisible.count == 0 %}
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                    Месторождения
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                {% leaflet_map "rockmap" callback="window.map_init_basic" %}
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+                    {% for infobox in post.Infobox.all %}
+                        <table class="table border table-hover table-sm col-3 float-lg-right" style='padding: auto'>
+                            <thead class="table-primary">
+                            <tr>
+                                <td colspan="2" style="text-align: center"><strong>{{ infobox.rock }}</strong></td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>{% if post.ImgForInfobox %}
+                                <th colspan="2"><img src="{{ post.ImgForInfobox }}" alt="{{ post.ImgForInfobox }} "
+                                                     style="display: block; margin-right: auto; margin-left: auto; width: 50%">
+                                </th>
+                                </tr>{% endif %}
+                            <thead class="table-info">
+                            <tr>
+                                <td colspan="2" style="text-align: center"><strong>Общее</strong></td>
+                            </tr>
+                            </thead>
+                            <tr>{% if infobox.formula %}
+                                <th scope="row">{{ infobox.name_label }}:</th>
+                                <td>{{ infobox.formula|safe }}</td>
+                                </tr>{% endif %}
+                            <tr>{% if infobox.category %}
+                                <th scope="row">{{ infobox.category_label }}:</th>
+                                <td>{{ infobox.category }}</td>
+                                </tr>{% endif %}
+                            <tr>{% if infobox.CristalSystem %}
+                                <th scope="row">{{ infobox.CristalSystem_label }}:</th>
+                                <td>{{ infobox.CristalSystem }}</td>
+                                </tr>{% endif %}
+                            <thead class="table-info">
+                            <tr>
+                                <td colspan="2" style="text-align: center"><strong>Индентификация</strong></td>
+                            </tr>
+                            </thead>
+                            <tr>{% if infobox.color %}
+                                <th scope="row">{{ infobox.color_label }}:</th>
+                                <td>{{ infobox.color }}</td>
+                                </tr>{% endif %}
+                            <tr>{% if infobox.hardness %}
+                                <th scope="row">{{ infobox.hardness_label }}:</th>
+                                <td>~{{ infobox.hardness }}</td>
+                                </tr>{% endif %}
+                            <tr>{% if infobox.Cleavage %}
+                                <th scope="row">{{ infobox.Cleavage_label }}:</th>
+                                <td>{{ infobox.Cleavage }}</td>
+                                </tr>{% endif %}
+                            <tr>{% if infobox.Fracture %}
+                                <th scope="row">{{ infobox.Fracture_label }}:</th>
+                                <td>{{ infobox.Fracture }}</td>
+                                </tr>{% endif %}
+                            <tr>{% if infobox.Lustre %}
+                                <th scope="row">{{ infobox.Lustre_label }}:</th>
+                                <td>{{ infobox.Lustre }}</td>
+                                </tr>{% endif %}
+                            <tr>{% if infobox.Opacity %}
+                                <th scope="row">{{ infobox.Opacity_label }}:</th>
+                                <td>{{ infobox.Opacity }}</td>
+                                </tr>{% endif %}
+                            <tr>{% if infobox.Streak %}
+                                <th scope="row">{{ infobox.Streak_label }}:</th>
+                                <td>{{ infobox.Streak }}</td>
+                                </tr>{% endif %}
+                            <tr>{% if infobox.SpecificGravity %}
+                                <th scope="row">{{ infobox.SpecificGravity_label }}:</th>
+                                <td>~{{ infobox.SpecificGravity }}</td>
+                                </tr>{% endif %}
+                            <tr>
+                            <tr>{% if infobox.density %}
+                                <th scope="row">{{ infobox.density_label }}:</th>
+                                <td>{{ infobox.density }}</td>
+                                </tr>{% endif %}
+                            {% if not mapVisible.count == 0 %}
+                            <tr>
+                                <th scope="row">Месторождения:</th>
+                                <td>{% for Place in post.place.all %}{% if Place.country %}{{ Place.country }}
+                                    {% if not forloop.last %} {% endif %}{% endif %}{% endfor %}</td>
+                            </tr>
+                            {% endif %}
+                            </tbody>
+                        </table>
+                    {% endfor %}
+                    <p class="card-text" id="text">{{ post.text|safe|escape }}</p>
+                </div>
+                <script type="text/javascript">
+                    function map_init_basic(map, options) {
+                        {% for place in post.place.all %}
+                            L.marker([{{ place.location }}]).addTo(map).bindPopup("{{ place.country }}");
+                        {% endfor %}
+                    }
+                </script>
+
+                <div class="card-header text-muted">
+                </div>
             </div>
         </div>
     </article>
+    <script>
+            var str = document.getElementById("text").innerHTML;
+
+            var res = str.replace(/[==]/g, "<br>");
+            document.getElementById("text").innerHTML = res;
+    </script>
 
 
 

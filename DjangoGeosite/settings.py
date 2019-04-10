@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -42,7 +43,14 @@ INSTALLED_APPS = [
     'rest_framework',
     'haystack',
     'whoosh',
+    'leaflet',
+    'location_field.apps.DefaultConfig',
+    'import_export',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 ]
+
+SITE_ID=1
 
 HAYSTACK_CONNECTIONS = {
     'default': {
@@ -50,8 +58,14 @@ HAYSTACK_CONNECTIONS = {
         'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
     },
 }
-
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
 REST_FRAMEWORK = {
+'DEFAULT_FILTER_BACKENDS': ('django_filters.rest_framework.DjangoFilterBackend',),
+    'DEFAULT_PARSER_CLASSES': (
+        'rest_framework.parsers.JSONParser',
+    ),
+'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10,
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
     'DEFAULT_PERMISSION_CLASSES': [
@@ -67,12 +81,18 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
 ]
+
+
 
 ROOT_URLCONF = 'DjangoGeosite.urls'
 
+IMPORT_EXPORT_USE_TRANSACTIONS = True
+
 TEMPLATES = [
     {
+
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, 'templates')]
         ,
@@ -89,6 +109,13 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'DjangoGeosite.wsgi.application'
+
+LEAFLET_CONFIG = {
+    # conf here
+    'DEFAULT_CENTER': (6.0, 45.0),
+    'DEFAULT_ZOOM': 1,
+    'NO_GLOBALS': False
+}
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
