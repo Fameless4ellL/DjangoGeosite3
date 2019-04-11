@@ -22,8 +22,8 @@
                role="button"><i class="fa fa-info-circle"></i> Подробнее</a>
         </div>
     </div>
-    <div id="main">
-        <div id="myModal" class="modal fade" role="dialog">
+    <div id="main" >
+        <div id="myModal" class="modal fade" role="dialog" style="z-index: 8889" >
             <div class="modal-dialog">
 
                 <!-- Modal content-->
@@ -35,7 +35,7 @@
                     </div>
 
                     <!-- Modal body -->
-                    <div class="modal-body">
+                    <div class="modal-body" style="z-index: 1">
                         Энциклопедия в том виде, в каком мы её знаем сейчас, появилась в XVIII веке. Образцом для неё
                         послужил словарь. Словарь содержит только слова и их определения, давая читателю минимум
                         информации
@@ -68,7 +68,7 @@
                                     {#                                    <button type="button" class="btn btn-outline-info" data-toggle="modal"#}
                                     {#                                            data-target="#Changes"><i class="fa fa-cog"></i></button>#}
                                     {#                                </div>#}
-                                    {% render_field form.q class="form-control" placeholder='Напишите что-нибудь' autocomplete='off' list='abc' %}
+                                    {% render_field form.q class="form-control" placeholder='Напишите что-нибудь' autocomplete='on' list='abc' %}
                                     <div class="input-group-append">
                                         <button class="btn btn-outline-primary  col-sm-0" type="submit"><i
                                                 class="fa fa-search"></i> Поиск
@@ -251,11 +251,11 @@
             </div>
         </div>
 
-        <datalist id="abc">
-            {% for post in num_post %}
-                <option value="{{ post.title }}">
-            {% endfor %}
-        </datalist>
+{#        <datalist id="abc">#}
+{#            {% for post in num_post %}#}
+{#                <option value="{{ post.title }}">#}
+{#            {% endfor %}#}
+{#        </datalist>#}
 
 
     </div>

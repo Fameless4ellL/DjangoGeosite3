@@ -89,6 +89,7 @@ class SearchView(object):
         """
         return self.form.search()
 
+
     def build_page(self):
         """
         Paginates the results appropriately.
@@ -273,10 +274,20 @@ def post_detail(request, pk):
 
 def post_by_tag(request, tag_slug):
     tags = Tags.objects.get(slug=tag_slug)
-    posts = Post.objects.filter(tags__exact=tags)
+    f = ProductFilter(request.GET, queryset=Post.objects.filter(tags__exact=tags))
+    paginator = Paginator(f.qs, 50)  # Показывает 16 постов за стр
+
+    page = request.GET.get('page', 1)
+    try:
+        queryset = paginator.page(page)
+    except PageNotAnInteger:
+        queryset = paginator.page(1)
+    except EmptyPage:
+        queryset = paginator.page(paginator.num_pages)
     context = {
         'tag': tags,
-        'posts': posts,
+        'posts': queryset,
+        'filter': f,
     }
     return render(request, 'post_by_category.html', context)
 
